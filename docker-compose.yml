@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    image: elifesciences/data-science-peertax-jupyter:${IMAGE_TAG}
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "${PEERTAX_JUPYTER_PORT}:8888"
