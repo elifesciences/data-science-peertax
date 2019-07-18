@@ -92,3 +92,31 @@ jupyter-logs:
 
 jupyter-stop:
 	$(JUPYTER_DOCKER_COMPOSE) down
+
+
+pylint:
+	$(JUPYTER_RUN) pylint peertax tests setup.py
+
+
+flake8:
+	$(JUPYTER_RUN) flake8 peertax tests setup.py
+
+
+pytest:
+	$(JUPYTER_RUN) pytest -p no:cacheprovider $(PYTEST_ARGS)
+
+
+lint: \
+	flake8 \
+	pylint
+
+
+test: lint pytest
+
+
+ci-build-and-test:
+	$(MAKE) DOCKER_COMPOSE="$(DOCKER_COMPOSE_CI)" jupyter-build test
+
+
+ci-clean:
+	$(DOCKER_COMPOSE_CI) down -v

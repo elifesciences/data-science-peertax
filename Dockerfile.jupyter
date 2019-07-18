@@ -51,9 +51,10 @@ RUN jupyter nbextension enable --py widgetsnbextension
 COPY requirements.dev.txt ${PROJECT_FOLDER}/
 RUN pip install --user -r requirements.dev.txt
 
-WORKDIR ${PROJECT_FOLDER}
-
 COPY peertax ./peertax
 COPY notebooks ./notebooks
+
+COPY .flake8 .pylintrc ./
+COPY tests ./tests
 
 USER root
