@@ -49,11 +49,6 @@ RUN jupyter nbextension enable --py widgetsnbextension
 
 WORKDIR ${PROJECT_FOLDER}
 
-COPY exploratory ./exploratory
-COPY LDA ./LDA
-COPY preprocessing ./preprocessing
-COPY review_score ./review_score
-COPY embeddings ./embeddings
-COPY LDA_Preliminary ./LDA_Preliminary
+COPY peertax ./peertax
 
 USER root
