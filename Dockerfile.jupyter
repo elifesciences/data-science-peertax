@@ -1,0 +1,59 @@
+FROM jupyter/minimal-notebook:9e8682c9ea54
+
+USER root
+
+ARG install_jq=y
+RUN if [ "${install_jq}" = "y" ]; then \
+      apt-get update \
+      && apt-get install --assume-yes --no-install-recommends \
+        jq \
+      && rm -rf /var/lib/apt/lists/*; \
+    fi
+
+# install gcloud to make it easier to access cloud storage
+# gcloud sdk cli only works with Python 2 (in 2019)
+ARG install_gcloud=y
+RUN if [ "${install_gcloud}" = "y" ]; then \
+      apt-get update \
+      && apt-get install --assume-yes --no-install-recommends \
+        curl python2.7 \
+      && rm -rf /var/lib/apt/lists/* \
+      && mkdir -p /usr/local/gcloud \
+      && curl -q https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz \
+        -o /tmp/google-cloud-sdk.tar.gz \
+      && tar -C /usr/local/gcloud -xvf /tmp/google-cloud-sdk.tar.gz \
+      && rm /tmp/google-cloud-sdk.tar.gz \
+      && /usr/local/gcloud/google-cloud-sdk/install.sh; \
+    fi
+
+USER jovyan
+
+ENV PATH /usr/local/gcloud/google-cloud-sdk/bin:$PATH
+
+ENV PROJECT_FOLDER=/home/jovyan/peertax
+
+WORKDIR ${PROJECT_FOLDER}
+
+COPY requirements.txt ${PROJECT_FOLDER}/
+RUN pip install --upgrade pip && \
+  pip install -r requirements.txt && \
+  pip install -e .
+
+RUN python -m spacy download en_core_web_sm
+
+RUN python -m spacy download en_core_web_lg
+
+RUN python -m nltk.downloader stopwords
+
+RUN jupyter nbextension enable --py widgetsnbextension
+
+WORKDIR ${PROJECT_FOLDER}
+
+COPY exploratory ./exploratory
+COPY LDA ./LDA
+COPY preprocessing ./preprocessing
+COPY review_score ./review_score
+COPY embeddings ./embeddings
+COPY LDA_Preliminary ./LDA_Preliminary
+
+USER root

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter:
+    environment:
+      - NB_UID=${NB_UID}
+      - NB_GID=${NB_GID}
+    volumes:
+      - .:/home/jovyan/peertax
+      - ~/.config/gcloud:/home/jovyan/.config/gcloud

@@ -1,0 +1,13 @@
+venv
+
+.ipynb_checkpoints
+preprocessing.egg-info/
+*.pyc
+*.pkl
+*.wv
+*.doc2vec
+*.npy
+*.log
+*.state
+*.id2word
+*.html
