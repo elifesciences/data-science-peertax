@@ -29,7 +29,8 @@ venv-create:
 
 dev-install:
 	$(PIP) install -r requirements.jupyter.txt
-	$(PIP) install -r requirements.txt
+	$(PIP) install -e .
+	$(PIP) install -r requirements.dev.txt
 
 
 dev-nlp-model-download:
@@ -47,6 +48,28 @@ dev-jupyter-configure:
 
 dev-jupyter-start: dev-jupyter-configure
 	$(VENV)/bin/jupyter lab -y --port=$(PEERTAX_JUPYTER_PORT)
+
+
+dev-flake8:
+	$(PYTHON) -m flake8 peertax tests setup.py
+
+
+dev-pylint:
+	$(PYTHON) -m pylint peertax tests setup.py
+
+
+dev-lint: dev-flake8 dev-pylint
+
+
+dev-pytest:
+	$(PYTHON) -m pytest -p no:cacheprovider $(ARGS)
+
+
+dev-watch:
+	$(PYTHON) -m pytest_watch -- -p no:cacheprovider $(ARGS)
+
+
+dev-test: dev-lint dev-pytest
 
 
 jupyter-build:

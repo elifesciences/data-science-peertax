@@ -29,15 +29,16 @@ RUN if [ "${install_gcloud}" = "y" ]; then \
 USER jovyan
 
 ENV PATH /usr/local/gcloud/google-cloud-sdk/bin:$PATH
+ENV PATH /home/jovyan/.local/bin:$PATH
 
 ENV PROJECT_FOLDER=/home/jovyan/peertax
+RUN  mkdir -p ${PROJECT_FOLDER}
 
 WORKDIR ${PROJECT_FOLDER}
 
-COPY requirements.txt ${PROJECT_FOLDER}/
-RUN pip install --upgrade pip && \
-  pip install -r requirements.txt && \
-  pip install -e .
+COPY requirements.txt setup.py ${PROJECT_FOLDER}/
+RUN pip install --upgrade pip \
+  && pip install --user -e .
 
 RUN python -m spacy download en_core_web_sm
 
@@ -47,8 +48,12 @@ RUN python -m nltk.downloader stopwords
 
 RUN jupyter nbextension enable --py widgetsnbextension
 
+COPY requirements.dev.txt ${PROJECT_FOLDER}/
+RUN pip install --user -r requirements.dev.txt
+
 WORKDIR ${PROJECT_FOLDER}
 
 COPY peertax ./peertax
+COPY notebooks ./notebooks
 
 USER root
