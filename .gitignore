@@ -1,7 +1,8 @@
 venv
 
+.pytest_cache
 .ipynb_checkpoints
-preprocessing.egg-info/
+*.egg-info/
 *.pyc
 *.pkl
 *.wv

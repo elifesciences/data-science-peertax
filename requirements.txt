@@ -10,7 +10,7 @@ seaborn==0.9.0
 spacy==2.1.4
 pyldavis==2.1.2
 beautifulsoup4==4.7.1
-git+git://github.com/geopandas/geopandas.git
+geopandas @ git+git://github.com/geopandas/geopandas.git
 mapclassify==2.1.1
 descartes==1.1.0
 scikit-learn==0.21.2
