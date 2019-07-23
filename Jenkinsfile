@@ -19,6 +19,13 @@ elifePipeline {
             stage 'Merge to master', {
                 elifeGitMoveToBranch commit, 'master'
             }
+
+            stage 'Push unstable data-science-peertax-runner image', {
+                def image = DockerImage.elifesciences(this, 'data-science-peertax-runner', commit)
+                def unstable_image = image.addSuffixAndTag('_unstable', commit)
+                unstable_image.tag('latest').push()
+                unstable_image.push()
+            }
         }
     }
 }
