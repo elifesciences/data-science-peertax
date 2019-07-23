@@ -6,6 +6,7 @@ venv
 *.egg-info/
 *.pyc
 *.pkl
+*.tsv
 *.wv
 *.doc2vec
 *.npy

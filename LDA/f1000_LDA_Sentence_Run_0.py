@@ -1,4 +1,5 @@
 # Configuration
+import csv
 import sys
 import pathlib
 from pprint import pprint
@@ -23,7 +24,7 @@ import pyLDAvis.gensim
 ITER = '0'
 
 # Load and output folder settings
-path_load_pickle = '../pickles/f1000_tokenized_LDA_sentence_'+ITER+'.pkl'
+path_load_tsv = '../pickles/f1000_tokenized_LDA_sentence_'+ITER+'.tsv'
 out_folder = './f1000_LDA_Sentence_Run_'+ITER+'/'
 # Create folder if it doesn't exist.
 pathlib.Path(out_folder).mkdir(exist_ok=True) 
@@ -40,7 +41,9 @@ logging.basicConfig(handlers = handlers,
                     level=logging.INFO)
                     
 # Load data from pickle
-df = pd.read_pickle(path_load_pickle)
+df = pd.read_csv(path_load_tsv,sep='\t',quoting=csv.QUOTE_NONE)
+df.drop(columns=['Unnamed: 0'],inplace=True)
+
 txt_dist = defaultdict(int)
 j=0
 for sent in df.token:
