@@ -17,11 +17,12 @@ NB_GID = $(shell id -g)
 ARGS =
 
 LDA_ITER =
-LDA_NUM_TOPICS =
 LDA_PASSES = 30
 LDA_ITERATIONS = 1000
 LDA_EVAL_EVERY = 10
 LIMIT =
+TASKS_MIN = 1
+TASKS_LIMIT = 3
 
 
 venv-clean:
@@ -87,11 +88,11 @@ dev-run-lda-local:
 		--logging "$(LOGGING_DIR)" \
 		--input INPUT_FILE=./data/tokenized/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
 		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
-		--env LDA_NUM_TOPICS=$(LDA_NUM_TOPICS) \
 		--env LDA_PASSES=$(LDA_PASSES) \
 		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
 		--env LDA_EVAL_EVERY=$(LDA_EVAL_EVERY) \
 		--env LIMIT=$(LIMIT) \
+		--tasks scripts/tasks.tsv $(TASKS_MIN)-$(TASKS_LIMIT) \
 		--image=elifesciences/data-science-peertax-runner:develop \
 		--script ./scripts/lda_sentence_run.py \
 		--wait

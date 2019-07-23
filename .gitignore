@@ -7,7 +7,7 @@ data/lda-runs
 *.egg-info/
 *.pyc
 *.pkl
-*.tsv
+data/**/*.tsv
 *.wv
 *.doc2vec
 *.npy
