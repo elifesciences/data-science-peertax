@@ -12,3 +12,4 @@ venv
 *.state
 *.id2word
 *.html
+*.xml

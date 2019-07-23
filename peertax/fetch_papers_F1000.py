@@ -15,7 +15,7 @@ with open("../published-xml-urls.html", "r") as f:
         urls.append(xml_file)
 
 # Downloading papers
-out_folder = '../f1000_articles/'
+out_folder = '../data/articles/f1000_articles/'
 pathlib.Path(out_folder).mkdir(exist_ok=True)
 for url in tqdm(urls):
     r = requests.get(url)
