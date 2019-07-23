@@ -11,6 +11,8 @@ JUPYTER_RUN = $(JUPYTER_DOCKER_COMPOSE) run --rm jupyter
 
 PEERTAX_JUPYTER_PORT = 8891
 
+PEERTAX_RUNNER_TAG = develop
+
 NB_UID = $(shell id -u)
 NB_GID = $(shell id -g)
 
@@ -23,6 +25,10 @@ LDA_EVAL_EVERY = 10
 LIMIT =
 TASKS_MIN = 1
 TASKS_LIMIT = 3
+
+CLOUD_DATA_PATH =
+GCP_PROJECT =
+GCP_REGIONS = us-central1
 
 
 venv-clean:
@@ -105,6 +111,41 @@ dev-run-lda-local: .require-LDA_ITER
 		--wait
 	cat $(LOGGING_DIR)/*
 	ls -l $(OUTPUT_DIRECTORY)
+
+
+.require-CLOUD_DATA_PATH:
+	@if [ -z "$(CLOUD_DATA_PATH)" ]; then \
+		echo "CLOUD_DATA_PATH required"; \
+		exit 1; \
+	fi
+
+
+.require-GCP_PROJECT:
+	@if [ -z "$(GCP_PROJECT)" ]; then \
+		echo "GCP_PROJECT required"; \
+		exit 1; \
+	fi
+
+
+dev-run-lda-cloud: .require-LDA_ITER .require-CLOUD_DATA_PATH .require-GCP_PROJECT
+	$(eval OUTPUT_DIRECTORY = $(CLOUD_DATA_PATH)/lda-runs/f1000_LDA_Sentence_Run_$(LDA_ITER))
+	$(eval LOGGING_DIR = $(OUTPUT_DIRECTORY)/logs)
+	$(PYTHON) -m dsub.commands.dsub \
+		--provider google-v2 \
+		--project "$(GCP_PROJECT)" \
+		--regions "$(GCP_REGIONS)" \
+		--logging "$(LOGGING_DIR)" \
+		--input INPUT_FILE=$(CLOUD_DATA_PATH)/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
+		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
+		--env LDA_PASSES=$(LDA_PASSES) \
+		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
+		--env LDA_EVAL_EVERY=$(LDA_EVAL_EVERY) \
+		--env LIMIT=$(LIMIT) \
+		--tasks scripts/tasks.tsv $(TASKS_MIN)-$(TASKS_LIMIT) \
+		--image=elifesciences/data-science-peertax-runner:$(PEERTAX_RUNNER_TAG) \
+		--script ./scripts/lda_sentence_run.py \
+		--wait
+	gsutil -l $(OUTPUT_DIRECTORY)
 
 
 runner-build:
