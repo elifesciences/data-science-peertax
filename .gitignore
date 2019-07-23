@@ -1,4 +1,5 @@
 venv
+data/lda-runs
 
 .pytest_cache
 .ipynb_checkpoints

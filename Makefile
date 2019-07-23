@@ -80,14 +80,13 @@ dev-test: dev-lint dev-pytest
 
 
 dev-run-lda-local:
-	@if [ -d /tmp/dsub-test/logging/ ]; then \
-		rm -rf /tmp/dsub-test/logging/; \
-	fi
+	$(eval OUTPUT_DIRECTORY = ./data/lda-runs/f1000_LDA_Sentence_Run_$(LDA_ITER))
+	$(eval LOGGING_DIR = $(OUTPUT_DIRECTORY)/logs)
 	$(PYTHON) -m dsub.commands.dsub \
 		--provider local \
-		--logging /tmp/dsub-test/logging/ \
+		--logging "$(LOGGING_DIR)" \
 		--input INPUT_FILE=./data/tokenized/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
-		--output-recursive OUTPUT_DIRECTORY=/tmp/dsub-test/output/ \
+		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
 		--env LDA_NUM_TOPICS=$(LDA_NUM_TOPICS) \
 		--env LDA_PASSES=$(LDA_PASSES) \
 		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
@@ -96,8 +95,8 @@ dev-run-lda-local:
 		--image=elifesciences/data-science-peertax-runner:develop \
 		--script ./scripts/lda_sentence_run.py \
 		--wait
-	cat /tmp/dsub-test/logging/*
-	ls -l /tmp/dsub-test/output/
+	cat $(LOGGING_DIR)/*
+	ls -l $(OUTPUT_DIRECTORY)
 
 
 runner-build:
