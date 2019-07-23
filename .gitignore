@@ -1,4 +1,5 @@
 venv
+data/lda-runs
 
 .pytest_cache
 .ipynb_checkpoints
@@ -6,7 +7,7 @@ venv
 *.egg-info/
 *.pyc
 *.pkl
-*.tsv
+data/**/*.tsv
 *.wv
 *.doc2vec
 *.npy

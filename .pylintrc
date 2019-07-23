@@ -12,3 +12,9 @@ disable=
     no-self-use,
     fixme,
     duplicate-code
+
+[TYPECHECK]
+ignored-classes=
+    lxml.builder.ElementMaker
+extension-pkg-whitelist=
+    lxml

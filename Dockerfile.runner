@@ -1,0 +1,8 @@
+FROM python:3.6.9-stretch
+
+ENV PROJECT_FOLDER=/opt/peertax
+WORKDIR ${PROJECT_FOLDER}
+
+COPY requirements.runner.txt ./
+RUN pip install --upgrade pip \
+  && pip install -r requirements.runner.txt
