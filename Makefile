@@ -181,11 +181,11 @@ jupyter-stop:
 
 
 pylint:
-	$(JUPYTER_RUN) pylint peertax tests setup.py
+	$(JUPYTER_RUN) pylint peertax tests scripts setup.py
 
 
 flake8:
-	$(JUPYTER_RUN) flake8 peertax tests setup.py
+	$(JUPYTER_RUN) flake8 peertax tests scripts setup.py
 
 
 pytest:
