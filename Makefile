@@ -201,7 +201,7 @@ test: lint pytest
 
 
 ci-build-and-test:
-	$(MAKE) DOCKER_COMPOSE="$(DOCKER_COMPOSE_CI)" jupyter-build test
+	$(MAKE) DOCKER_COMPOSE="$(DOCKER_COMPOSE_CI)" runner-build jupyter-build test
 
 
 ci-clean:
