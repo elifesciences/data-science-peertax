@@ -56,5 +56,6 @@ COPY notebooks ./notebooks
 
 COPY .flake8 .pylintrc ./
 COPY tests ./tests
+COPY scripts ./scripts
 
 USER root

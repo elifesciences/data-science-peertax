@@ -65,11 +65,11 @@ dev-jupyter-start: dev-jupyter-configure
 
 
 dev-flake8:
-	$(PYTHON) -m flake8 peertax tests setup.py
+	$(PYTHON) -m flake8 peertax tests scripts setup.py
 
 
 dev-pylint:
-	$(PYTHON) -m pylint peertax tests setup.py
+	$(PYTHON) -m pylint peertax tests scripts setup.py
 
 
 dev-lint: dev-flake8 dev-pylint
