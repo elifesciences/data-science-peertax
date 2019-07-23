@@ -16,6 +16,13 @@ NB_GID = $(shell id -g)
 
 ARGS =
 
+LDA_ITER =
+LDA_NUM_TOPICS =
+LDA_PASSES = 30
+LDA_ITERATIONS = 1000
+LDA_EVAL_EVERY = 10
+LIMIT =
+
 
 venv-clean:
 	@if [ -d "$(VENV)" ]; then \
@@ -70,6 +77,37 @@ dev-watch:
 
 
 dev-test: dev-lint dev-pytest
+
+
+dev-run-lda-local:
+	@if [ -d /tmp/dsub-test/logging/ ]; then \
+		rm -rf /tmp/dsub-test/logging/; \
+	fi
+	$(PYTHON) -m dsub.commands.dsub \
+		--provider local \
+		--logging /tmp/dsub-test/logging/ \
+		--input INPUT_FILE=./data/tokenized/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
+		--output-recursive OUTPUT_DIRECTORY=/tmp/dsub-test/output/ \
+		--env LDA_NUM_TOPICS=$(LDA_NUM_TOPICS) \
+		--env LDA_PASSES=$(LDA_PASSES) \
+		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
+		--env LDA_EVAL_EVERY=$(LDA_EVAL_EVERY) \
+		--env LIMIT=$(LIMIT) \
+		--image=elifesciences/data-science-peertax-runner:develop \
+		--script ./scripts/lda_sentence_run.py \
+		--wait
+	cat /tmp/dsub-test/logging/*
+	ls -l /tmp/dsub-test/output/
+
+
+runner-build:
+	@if [ "$(NO_BUILD)" != "y" ]; then \
+		$(DOCKER_COMPOSE) build runner; \
+	fi
+
+
+runner-shell: runner-build
+	$(DOCKER_COMPOSE) run --rm runner bash
 
 
 jupyter-build:

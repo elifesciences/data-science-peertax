@@ -1,6 +1,11 @@
 version: '3'
 
 services:
+  runner:
+    build:
+      context: .
+      dockerfile: Dockerfile.runner
+    image: elifesciences/data-science-peertax-runner:${IMAGE_TAG}
   jupyter:
     build:
       context: .
