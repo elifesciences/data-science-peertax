@@ -80,7 +80,14 @@ dev-watch:
 dev-test: dev-lint dev-pytest
 
 
-dev-run-lda-local:
+.require-LDA_ITER:
+	@if [ -z "$(LDA_ITER)" ]; then \
+		echo "LDA_ITER required"; \
+		exit 1; \
+	fi
+
+
+dev-run-lda-local: .require-LDA_ITER
 	$(eval OUTPUT_DIRECTORY = ./data/lda-runs/f1000_LDA_Sentence_Run_$(LDA_ITER))
 	$(eval LOGGING_DIR = $(OUTPUT_DIRECTORY)/logs)
 	$(PYTHON) -m dsub.commands.dsub \
