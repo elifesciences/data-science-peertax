@@ -2,12 +2,12 @@ import pathlib
 import re
 from bs4 import BeautifulSoup
 import requests
-from tqdm import tqdm_notebook as tqdm
+from tqdm import tqdm
 
 # URLs fetching
 urls = []
 idx = [1, 4, 5, 6]
-with open("../f1000_published-xml-urls.html", "r") as f:
+with open("../wellcome_published-xml-urls.html", "r") as f:
     contents = f.read()
     soup = BeautifulSoup(contents, 'lxml')
     for i, link in enumerate(soup.find_all('a')):
@@ -15,7 +15,7 @@ with open("../f1000_published-xml-urls.html", "r") as f:
         urls.append(xml_file)
 
 # Downloading papers
-out_folder = '../data/articles/f1000_articles/'
+out_folder = '../data/articles/wellcome_articles/'
 pathlib.Path(out_folder).mkdir(exist_ok=True)
 for url in tqdm(urls):
     r = requests.get(url)

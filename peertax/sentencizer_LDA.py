@@ -85,6 +85,8 @@ def custom_sentencizer(texts):
         text = re.sub(r'\(\?', r'\(', str(text))
         # Remove question marks inside parenthesis (they mess up sentence splitting)
         text = re.sub(r'\?\)', r'\)', str(text))
+        # Remove \xa0 tags (they mess up sentence splitting)
+        text = re.sub(r'[\xa0]', '', str(text))
         # Replace multiple occurrences of whitespace characters with single one
         text = re.sub(r'(\s)\1{1,}', r'\1', str(text))
         return text
@@ -113,7 +115,9 @@ def custom_sentencizer(texts):
     sentencizer = Sentencizer(punct_chars=[".", "?", "!",
                                            "\n", "\n ",
                                            "\n\n", "\n \n ",
-                                           "\n\n\n", "\n \n \n "])
+                                           "\n\n\n", "\n \n \n ",
+                                           "\n\n\n\n", "\n \n \n \n ",
+                                           "\n\n\n\n\n", "\n \n \n \n \n "])
     nlp.add_pipe(sentencizer)
     nlp.add_pipe(custom_seg_1, after='sentencizer')
     nlp.add_pipe(custom_seg_2, after='custom_seg_1')

@@ -5,8 +5,10 @@ disable=
     too-few-public-methods,
     too-many-arguments,
     too-many-locals,
+    too-many-statements,
     too-many-branches,
     too-many-instance-attributes,
     no-else-return,
     no-self-use,
-    fixme
+    fixme,
+    duplicate-code
