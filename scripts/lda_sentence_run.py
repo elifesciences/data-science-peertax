@@ -42,6 +42,12 @@ def _add_required_argument(parser: argparse.ArgumentParser, *args, default, **kw
     parser.add_argument(*args, required=default == '', default=default, **kwargs)
 
 
+def _to_int_or_none(value: str) -> int:
+    if not value:
+        return None
+    return int(value)
+
+
 def parse_args(argv: List[str] = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="LDA Sentence Run"
@@ -93,7 +99,7 @@ def parse_args(argv: List[str] = None) -> argparse.Namespace:
     parser.add_argument(
         '--limit',
         default=os.environ.get(EnvrionmentVariables.LIMIT),
-        type=int,
+        type=_to_int_or_none,
         help='limit number of rows to read from input file (mainly for testing)'
     )
 
@@ -111,12 +117,22 @@ def run(args: argparse.Namespace):
     output_directory = args.output_directory
     num_topics = int(args.lda_num_topics)
 
+    model_meta = {}
+
+    model_meta['limit'] = args.limit
+
     tokens_list = read_tokens_list(args.input_file, limit=args.limit)
 
     # Create Dictionary
     id2word = corpora.Dictionary(tokens_list)
+
+    model_meta['num_unique_tokens_before_filter'] = len(id2word)
+
+    token_filter_params = dict(no_below=20, no_above=0.75)
+    model_meta['token_filter_params'] = token_filter_params
+
     LOGGER.info('Dict size (no filter): %d', len(id2word))
-    id2word.filter_extremes(no_below=20, no_above=0.75)
+    id2word.filter_extremes(**token_filter_params)
     LOGGER.info('Dict size (after filter): %d', len(id2word))
 
     # Term Document Frequency
@@ -124,20 +140,25 @@ def run(args: argparse.Namespace):
     LOGGER.info('Number of unique tokens: %d', len(id2word))
     LOGGER.info('Number of documents: %d', len(corpus))
 
+    model_meta['num_unique_tokens'] = len(id2word)
+    model_meta['num_documents'] = len(corpus)
+
     # Set training parameters.
-    passes = int(args.lda_passes)
-    iterations = int(args.lda_iterations)
-    eval_every = int(args.lda_eval_every)  # For monitoring
+    lda_params = dict(
+        num_topics=num_topics,
+        random_state=100,
+        eval_every=int(args.lda_eval_every),
+        passes=int(args.lda_passes),
+        iterations=int(args.lda_iterations),
+        per_word_topics=True
+    )
+
+    model_meta['lda_params'] = lda_params
 
     lda_model = gensim.models.ldamulticore.LdaMulticore(
         corpus=corpus,
         id2word=id2word,
-        num_topics=num_topics,
-        random_state=100,
-        eval_every=eval_every,
-        passes=passes,
-        iterations=iterations,
-        per_word_topics=True
+        **lda_params
     )
 
     # Save model
@@ -145,7 +166,6 @@ def run(args: argparse.Namespace):
     lda_model.save(output_filename_prefix)
     LOGGER.info('Model saved at location %s', output_filename_prefix)
 
-    model_meta = {}
     # Compute complexity score of model
     model_meta['perplexity'] = lda_model.log_perplexity(corpus)
     # Compute coherence scores (c_v and umass)
