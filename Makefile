@@ -29,6 +29,7 @@ TASKS_MIN = 1
 TASKS_LIMIT = 3
 
 CLOUD_DATA_PATH =
+CLOUD_SOURCE_DATA_PATH = $(CLOUD_DATA_PATH)
 GCP_PROJECT =
 GCP_REGIONS = us-central1
 GCP_MACHINE_TYPE = n1-highcpu-4
@@ -139,7 +140,7 @@ dev-run-lda-cloud: .require-LDA_ITER .require-CLOUD_DATA_PATH .require-GCP_PROJE
 		--regions "$(GCP_REGIONS)" \
 		--machine-type "$(GCP_MACHINE_TYPE)" \
 		--logging "$(LOGGING_DIR)" \
-		--input INPUT_FILE=$(CLOUD_DATA_PATH)/f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
+		--input INPUT_FILE=$(CLOUD_SOURCE_DATA_PATH)/f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
 		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
 		--env LDA_PASSES=$(LDA_PASSES) \
 		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
