@@ -11,7 +11,9 @@ JUPYTER_RUN = $(JUPYTER_DOCKER_COMPOSE) run --rm jupyter
 
 PEERTAX_JUPYTER_PORT = 8891
 
-PEERTAX_RUNNER_TAG = develop
+PEERTAX_RUNNER_REPO = elifesciences/data-science-peertax-runner_unstable
+PEERTAX_RUNNER_TAG = 9638817641d2d9232ae1c81442a85441ef7974ca
+PEERTAX_RUNNER_IMAGE = $(PEERTAX_RUNNER_REPO):$(PEERTAX_RUNNER_TAG)
 
 NB_UID = $(shell id -u)
 NB_GID = $(shell id -g)
@@ -99,7 +101,7 @@ dev-run-lda-local: .require-LDA_ITER
 	$(PYTHON) -m dsub.commands.dsub \
 		--provider local \
 		--logging "$(LOGGING_DIR)" \
-		--input INPUT_FILE=./data/tokenized/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
+		--input INPUT_FILE=./data/tokenized/f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
 		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
 		--env LDA_PASSES=$(LDA_PASSES) \
 		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
@@ -135,17 +137,17 @@ dev-run-lda-cloud: .require-LDA_ITER .require-CLOUD_DATA_PATH .require-GCP_PROJE
 		--project "$(GCP_PROJECT)" \
 		--regions "$(GCP_REGIONS)" \
 		--logging "$(LOGGING_DIR)" \
-		--input INPUT_FILE=$(CLOUD_DATA_PATH)/peertax_f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
+		--input INPUT_FILE=$(CLOUD_DATA_PATH)/f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
 		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
 		--env LDA_PASSES=$(LDA_PASSES) \
 		--env LDA_ITERATIONS=$(LDA_ITERATIONS) \
 		--env LDA_EVAL_EVERY=$(LDA_EVAL_EVERY) \
 		--env LIMIT=$(LIMIT) \
 		--tasks scripts/tasks.tsv $(TASKS_MIN)-$(TASKS_LIMIT) \
-		--image=elifesciences/data-science-peertax-runner:$(PEERTAX_RUNNER_TAG) \
+		--image=$(PEERTAX_RUNNER_IMAGE) \
 		--script ./scripts/lda_sentence_run.py \
 		--wait
-	gsutil -l $(OUTPUT_DIRECTORY)
+	gsutil ls -l $(OUTPUT_DIRECTORY)
 
 
 runner-build:
