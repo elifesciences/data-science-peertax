@@ -42,6 +42,12 @@ def _add_required_argument(parser: argparse.ArgumentParser, *args, default, **kw
     parser.add_argument(*args, required=default == '', default=default, **kwargs)
 
 
+def _to_int_or_none(value: str) -> int:
+    if not value:
+        return None
+    return int(value)
+
+
 def parse_args(argv: List[str] = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="LDA Sentence Run"
@@ -93,7 +99,7 @@ def parse_args(argv: List[str] = None) -> argparse.Namespace:
     parser.add_argument(
         '--limit',
         default=os.environ.get(EnvrionmentVariables.LIMIT),
-        type=int,
+        type=_to_int_or_none,
         help='limit number of rows to read from input file (mainly for testing)'
     )
 
