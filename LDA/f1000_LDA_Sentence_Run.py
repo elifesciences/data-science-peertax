@@ -40,9 +40,11 @@ logging.basicConfig(handlers = handlers,
                     format="%(asctime)s:%(levelname)s:%(message)s",
                     level=logging.INFO)
                     
-# Load data from pickle
+# Load data from tsv
 df = pd.read_csv(path_load_tsv,sep='\t',quoting=csv.QUOTE_NONE)
 df.drop(columns=['Unnamed: 0'],inplace=True)
+# Split the token column
+df['token']=df['token'].str.split(',')
 
 txt_dist = defaultdict(int)
 j=0
