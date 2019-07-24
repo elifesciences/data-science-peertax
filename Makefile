@@ -31,6 +31,7 @@ TASKS_LIMIT = 3
 CLOUD_DATA_PATH =
 GCP_PROJECT =
 GCP_REGIONS = us-central1
+GCP_MACHINE_TYPE = n1-highcpu-4
 
 
 venv-clean:
@@ -136,6 +137,7 @@ dev-run-lda-cloud: .require-LDA_ITER .require-CLOUD_DATA_PATH .require-GCP_PROJE
 		--provider google-v2 \
 		--project "$(GCP_PROJECT)" \
 		--regions "$(GCP_REGIONS)" \
+		--machine-type "$(GCP_MACHINE_TYPE)" \
 		--logging "$(LOGGING_DIR)" \
 		--input INPUT_FILE=$(CLOUD_DATA_PATH)/f1000_tokenized_LDA_sentence_$(LDA_ITER).tsv \
 		--output-recursive OUTPUT_DIRECTORY=$(OUTPUT_DIRECTORY) \
