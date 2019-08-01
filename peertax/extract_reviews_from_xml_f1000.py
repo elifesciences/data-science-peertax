@@ -4,7 +4,7 @@ import re
 import pandas as pd
 from lxml import etree
 from tqdm import tqdm_notebook as tqdm
-from peertax import xml
+import xml_custom as xml
 
 paper_folder = '../data/articles/f1000_articles/'
 

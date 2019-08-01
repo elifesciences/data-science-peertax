@@ -1,5 +1,6 @@
 venv
 data/lda-runs
+LDA/f1000_LDA_Sentence_Run_*/
 
 .pytest_cache
 .ipynb_checkpoints
