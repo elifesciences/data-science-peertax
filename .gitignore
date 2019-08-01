@@ -8,6 +8,8 @@ LDA/f1000_LDA_Sentence_Run_*/
 *.egg-info/
 *.pyc
 *.pkl
+*.zip
+*.csv
 *.tsv
 *.wv
 *.doc2vec
