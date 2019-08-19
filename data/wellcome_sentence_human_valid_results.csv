@@ -1,0 +1,201 @@
+ID,label_1,label_2,Dominant_Topic,Perc_Contribution,texts,random
+2311,6,6,6,0.5194000005722046,Indoor air pollution and pneumonia is a well-recognised association in children.,1
+1488,4,2,2,0.6317999958992004,A brief description of the method of analysis should also be included.,1
+21266,5,2,0,0.3438999950885773,"Here, Murphy et al. reported an open-source MATLAB program named MyoCount for automatic quantification of myotube surface area and nuclear fusion index through analyzing immunofluorescence-stained images of myotube cultures.",1
+15211,3,6,6,0.4792999923229218,"A principal, convincing finding was that the new boundaries have reassigned several multi-gene families from the subtelomeric sites to the chromosome core.",0
+17619,6,2,2,0.4120999872684479,Would this affect the detection rate of respiratory viruses in infants?,1
+9755,6,2,2,0.5048999786376953,What are the primary differences between the manufacturer and the author-developed training materials?,0
+12450,4,5,5,0.5192000269889832,"Kadic et al., should be corrected to Jelicic Kadic et al.",0
+323,2,2,1,0.4575999975204468,"Conversely, using a larger bin size will smooth the data, which can be useful for clarity of the results but can also result in a loss of resolution.",0
+23,2,3,3,0.5109999775886536,"The level of granularity in the scoring of the phenotypes is a major strength of the paper, and reflects the deep and unique expertise of the team.",0
+20842,4,6,6,0.4352999925613403,It might help to modify the end of the sentence to say “ in these cases other data are suppressed”. ,1
+1035,1,1,1,0.4814000129699707,"In the box on the lower left, Fig 2, why are there multiple quote marks: “CSF-1””induces expression ” and what do these mean?",1
+10123,2,0,0,0.3409999907016754,"However, the CISS measure of emotion-oriented coping is comprised of items that are largely about self-blame, which would be categorized by other coping scales as ineffectual coping.",1
+19321,5,5,5,0.4079999923706055,Recent work has shown that there are two pathways for cohesin removal in meiosis in budding yeast.,0
+3856,6,3,3,0.5275999903678894,Overall the study presented is sound and the results justify the conclusions.,0
+9041,6,6,6,0.5253999829292297,This partial expression is substantially lower than most X-linked genes that escape inactivation.,0
+15274,0,4,4,0.4163999855518341,It is very laborious as a reviewer to check all references one by one.,0
+1659,6,2,2,0.6047000288963318,Is this the contrast of the mean response across inclusion levels or is it a parametric response?,1
+2913,6,0,1,0.5278000235557556,"However, the main text indicates that the pull device is located 8m away from the volunteer.",0
+22447,6,0,0,0.2763000130653381,"I also wonder how collecting data from people in low- and middle income countries (LMIC) would be considered by the authors: Does this count as healthcare knowledge creation on the side of people in LMIC countries, or does it increase the new social division between data givers and data takers?",1
+5948,2,2,2,0.43959999084472656,Methods Study procedures are very thoroughly explained and well thought.,0
+21596,6,6,2,0.6516000032424927,These populations are inherently different in terms of their likely parasite densities in infected individuals (with high parasitemia related to the probability of clinical symptoms) and demographically in terms of factors associated with care-seeking behavior.,1
+3979,6,2,2,0.4699999988079071,"The Zenodo version's title states that it is the ""Bioconductor-ready version"", and providing the mfa R package through Bioconductor would indeed further enhance its utility.",0
+7686,6,6,4,0.4014999866485596,The general overlay between both set could be presented in a better way.,0
+21447,1,1,1,0.5109999775886536,"In R11 and R12, avoid using a dotted or hashed line to connect repeated measures - it is very difficult to distinguish those dots from the actual data points in the raindrops.",0
+15330,6,0,6,0.4713999927043915,"In the maintenance stage, people have sustained their behavior change (e.g. weight loss) for more than 6 months and intend to maintain the behavior and avoid relapsing.",0
+3312,6,0,0,0.241799995303154,To which year did the authors assign the 49 mean vaccination coverage for West Africa?,1
+9419,1,6,0,0.3662999868392944,This information can be added as an extra column in supplementary table 2.,1
+2045,6,3,5,0.5105000138282776,"The notion that oxidised lipids that can regulate B cell subsets and antibody production (albeit modestly), is interesting.",0
+11522,4,4,4,0.5333999991416931,Delineating this within the discussion and conclusions might be helpful for the reader in order to know what to expect in the future.,1
+11905,4,4,2,0.512499988079071,The metabolite extraction method is slightly unclear.,0
+4890,2,0,0,0.3646000027656555,"Similarly, code presented in examples illustrate exported and high level code, while unit tests might rather want to address specific and private functions, that in turn are called within the high level user space functions.",1
+21635,6,4,6,0.4264000058174133,This is inconsistent with previous statements that data from one trial is pending.,0
+3675,4,4,6,0.4887999892234802,"Similarly, expressions of lambda R3, lambda S1, lambda S2 and lambda S3 would need some more explanation.",0
+17764,6,0,2,0.8460999727249146,The restriction enzyme based assay detects also Leucocytozoon.,0
+14943,4,1,1,0.4399999976158142,Note 2: Later the text describes the long range 1H 15N HSQC spectrum shown in panel C but without reference to it.,1
+1609,4,4,4,0.486299991607666,It’s unclear what “no personal major mental illness” means exactly.,1
+3172,0,2,0,0.2709000110626221,Authors aimed to systematically review and meta-analyze the results of studies assessing associations between early in life (neonatal childhood) adiposity and telomere length.,1
+10668,6,2,1,0.5223000049591064,"The slopes are interesting as they appear to be 1, indicating that there isn’t quite a perfect relationship between increased copy and increased mRNA dosage.",0
+193,6,3,2,0.4557999968528748,This is a surprising high figure for a population with an ultra-high risk for AD.,1
+14344,5,5,2,0.5999000072479248,The study by Hartshorne and Germaine involved cross-sectional data.,1
+3301,0,4,4,0.6121000051498413,"The 10 is commonly used, but the reference needs to be added.",0
+7790,0,0,0,0.3450999855995178,Quote: “It was initially proposed that DCs may act as functional units.,1
+8702,6,4,4,0.8460999727249146,"In addition, the ethical statement on page 5 is still duplicated on page 8.",1
+7987,5,2,1,0.7440000176429749,In the present study Billman et al. used single-molecule RNA-FISH to quantify the expression of HTLV-1 transcripts at the single-cell level.,0
+1360,1,1,1,0.4115999937057495,"In contrast, RNF4 in Figure 2D is depicted with 4 SIMs in Figure 2D, which is the correct number of SIMs.",1
+17723,6,2,0,0.28209999203681946,It would be good to see an example of how the truncation of the display at 800 nm does not affect the modelling and calculation results - and how to use the software in that case.,1
+13046,6,2,2,0.5778999924659729,A further correlation analysis with behavioral parameters would also be a plus.,0
+16723,0,2,0,0.2802000045776367,The technique creates lists of issues ranked as the most important for achieving a goal and issues that are less important to achieving the goal and are more difficult to perform.,1
+13673,1,1,1,0.4153999984264374,What do the P-values on the title of the Figure 3 correspond to?,0
+4826,3,4,0,0.8845999836921692,"I am very happy with the author's revisions, which I think have significantly strengthened the article.",1
+6490,0,0,4,0.4769000113010407,The authors and engagement team are described as local.,0
+9157,4,1,1,0.8561999797821045,"Supp File-1, Fig. 2C appears to show that 500 nM TTX had no effect on intracellular Na levels yet the mRNA levels in DRGs for both PENK and nFAT5 are significantly increased by TTX (Fig. 3B).",0
+3915,3,2,0,0.3905999958515167,"For GAP50 an Ookinete phenotype was also shown, demonstrating the use of KS to study essential proteins in transmission stages.",1
+5524,4,5,5,0.4156999886035919,Was there absolutely no deviation from the cited papers?,0
+11029,0,4,5,0.692300021648407,It is a pleasure to read the article.,0
+20282,1,1,1,0.6154000163078308,All three figures (Figure 1-3) are in poor resolution.,0
+8554,4,2,4,0.4154999852180481,There may be need to clarify that they both used inductive and deductive approaches in the methods section.,0
+3155,3,3,3,0.4889000058174133,I am happy with the changes made and think that this is an important contribution to the field.,0
+18889,2,2,6,0.4278999865055084,The authors showed no impact of TXA administration compared to placebo on ETP and platelet function.,0
+19245,2,2,0,0.3131999969482422,"For these reasons, I would caution the authors not to draw conclusions from the comparisons of crude mortality rates in unadjusted analyses when the underlying disease severity may be very different among those who received transfusions compared to those who did not.",1
+3025,6,6,3,0.5098000168800354,"Remember, this is a research study, not a clinical setting.",0
+20074,1,0,4,0.4907000064849854,"If yes, it should be worth to include them.",0
+22346,5,2,5,0.488400012254715,"For example, on page 5, the authors note that “The review will include all the pertinent documents published in English language only.”",0
+19690,0,2,5,0.5875999927520752,IHME does not engage in similar country consultation processes prior to publication.,0
+12759,3,6,2,0.42910000681877136,A number of concerns reduces the enthusiasm for this report:,1
+7295,6,6,2,0.555400013923645,The authors discuss that the “accumulation of DNA damage could however be independent of telomere length as it has been shown telomere associated DNA-damage response proteins do not differ in length from those that are negative for DNA damage markers (51).”,1
+21210,3,3,3,0.7692000269889832,"In my opinion, this important manuscript can be approved for indexing.",0
+13858,1,2,1,0.43959999084472656,The utility of the protocol is clearly stated and well illustrated in the videos.,0
+12518,1,1,1,0.7692000269889832,The correlation in Fig S3B is clearer.,0
+15728,2,4,2,0.4365000128746033,The risk of equine antitoxin is described variously as theoretical and infrequent ( 1 ).,0
+9306,1,1,1,0.6144000291824341,"Supporting information: Suggests there’s no need for figure A2, as figure A1 already depicts the relative amounts in the stacked bars.",1
+19899,6,6,2,0.611299991607666,"Perhaps, if feasible, a rough estimate of number of researcher visits to schools could also be given.",0
+16860,2,2,0,0.34139999747276306,"As a result, computational analyses suffer from noise introduced by the read-through events that are almost impossible to differentiate from the actual truncated cDNAs.",1
+16564,2,2,0,0.35280001163482666,For this purpose the authors developed a set of plasmids.,1
+20062,6,6,3,0.4424000084400177,It is worth to mention that TwinsUK offers facilities and encourages the sharing of data with the scientific community to further scientific research.,0
+10546,6,5,6,0.4643000066280365,There are a lot of evidences showing how the space alters the quality of the evidence.,0
+2174,3,3,3,0.4038999974727631,"The study is ambitious, but with their track record, this group are highly likely to complete this crucial piece of work and definitively answer the question they have raised.",0
+16868,2,2,0,0.35280001163482666,"By ligating a specific oligonucleotide to the 5’ ends of cross-linked RNAs, they can roughly quantify the degree of read-through and determine whether the sequence characteristics of the read-through fragments are similar to the truncated cDNAs.",1
+245,3,3,2,0.5641000270843506,The data also provide useful information with respect to various technical aspects of performing genome-wide screens.,0
+2867,6,6,6,0.6776999831199646,"To confirm the phenotype was caused specifically by loss of lamc3, I suggest the authors to examine whether lamc3 mRNA could rescue the phenotypes in morphants and mutants.",1
+16339,2,2,0,0.3601999878883362,"I would like to see included a more detailed account of the types of venues selected, with a number if possible.",1
+18823,3,5,5,0.5170000195503235,The paper of Thornton et al. presents a second version of the tool VERTEX (version 2.0).,0
+7731,2,5,2,0.5130000114440918,Data security measures are also described on the Safe Haven websites.,0
+3524,3,6,0,0.2540999948978424,"From the limited data that have been reported (reviewed critically in 1 ), it is indeed becoming evident that the energy metabolism of beta cells is unusual, with regulatory and control structures that are not typically found in other cells.",1
+5849,6,6,0,0.3736999928951264,"I would therefore suggest the authors to encourage the use of more markers, even if I am convinced that this first screen mostly refutes the transmission hypothesis.",1
+13802,0,5,5,0.494700014591217,It is unclear why this article is included.,0
+8312,2,2,2,0.6025999784469604,More information on a) which databases and resources were searched for articles and information and b) which references were used to derive the results.,1
+8640,6,6,6,0.7156000137329102,Are the conclusions drawn adequately and supported by the results?,0
+18018,4,4,4,0.7692000269889832,Is it easier for the reader to understand?,1
+12770,0,0,2,0.5695000290870667,I regret that I lack the expertise to review the other aspects of phenotype collection or study design.,0
+4615,2,2,6,0.4154999852180481,Does such a virus qualify for a positive control?,0
+8571,3,6,3,0.4754999876022339,There is some ambiguity about the overall aim of the engagement research.,0
+15064,6,6,4,0.5828999876976013,"Third, changes in FC consistently preceded changes in SC.",0
+8217,6,2,0,0.4088999927043915,The authors are to be commended for the breadth of their analysis.,1
+12339,1,4,4,0.4501999914646149,A table to summarize these assays and provide references to their implementation elsewhere would be helpful in determined their likely efficacy.,1
+19478,2,2,2,0.633899986743927,The current research note has sufficient details of the employed methods and analysis.,1
+16417,1,1,1,0.473800003528595,"Also, the text states that ""Both analyses demonstrate that ap2-g expression is significantly increased over time (Figure 2b)"" but Fig. 2b has no time component.",0
+7203,6,6,6,0.4341000020503998,"In Npc1 - - mice model, reduced activity of P450 enzymes was observed possibly as a result of bile acid deficiency imbalance, as bile acid treatment significantly rescued P450 enzyme activity in Npc1 - - mice.",0
+17025,4,4,2,0.5191000103950499,may I suggest “ .. emergence or re-emergence of SEVERAL arboviruses ”,0
+16738,6,3,0,0.2574000060558319,The paper analyses the needs and ranks the most pressing ones but gives no hint how precisely each identified need should be translated into research that provides evidence that an intervention actually is useful.,1
+13394,6,6,4,0.6259999871253967,The authors may think that they are well aware of the stakeholder landscape in English NHS and are already considering these in the study.,0
+13573,2,2,2,0.4203999936580658,"Lab based specificity test would be the next step before field applications, but can anything be said about the initial primer selection procedures based on the blast assessment?",1
+15539,3,6,3,0.6158999800682068,These considerations would be important for developers and to have a better understanding of the sand fly biology involved.,1
+22297,6,6,5,0.7692000269889832,"As it presently reads, the construct of community engagement is under-theorized.",0
+6274,2,2,0,0.2806999981403351,The authors utilize free-text responses to an anonymous web-based survey from 135 subjects who reported receiving a diagnosis of NES made by a health professional.,1
+17793,2,4,2,0.478300005197525,It is not mentioned in material and methods why exactly 103 out of 231 samples were screened microscopically.,0
+14414,2,2,2,0.4171999990940094,"I realise it is a small sample size, but was this examined?",1
+20614,6,0,4,0.5383999943733215,It is the only defense against arbitrary eviction 6 .,0
+7093,5,0,5,0.5077999830245972,In this paper in which details are reported in supplementary article in Science website.,0
+14470,2,2,0,0.32899999618530273,"In addition the interim data release (which seems to be what is used here - please clarify in the methods whether the data comes from the interim (2015) or full (2017) data release) featured some discrepancies between the two chips, which can introduce spurious associations especially if adjustment is not made for genotyping chip.",1
+5924,3,3,3,0.5892999768257141,Overall this is an interesting article and offers some important insights for practitioners and researchers working at the intersection between social psychology and gender theory.,0
+3780,0,0,6,0.6920999884605408,Transcription of T III 1”: chap.,0
+9171,2,2,4,0.5454999804496765,Both male and female animals were utilized throughout.,1
+14498,5,5,4,0.5444999933242798,The authors could also draw on literature on regime complexity in other policy areas.,0
+13901,6,4,1,0.5191000103950499,This part of the discussion appears to be confused for me.,0
+19589,4,4,4,0.5194000005722046,"Pg 8 para 4- the last sentence needs to be elaborated upon, including what the possibility for epitope specific antibody read-outs that might well differ between vaccine constructs.",1
+13157,4,0,3,0.4905999898910522,"Particularly on page 6, under ""frameworks of priority-setting"".",0
+4739,3,3,3,0.7203999757766724,This association between the physiology of passions and their moral or philosophical characterization remains the most intriguing and exciting part of the paper.,1
+16205,4,4,4,0.6123999953269958,In results it would be helpful to be clear on how you mean by the “translator”.,0
+16957,6,6,3,0.4171999990940094,"Ultimately, above all, more importantly are the paper's weaknesses that should be addressed.",0
+13275,5,0,5,0.5192999839782715,"First, the article cites community engagement (CE) as crucial to malaria elimination.",0
+5678,3,0,4,0.4587999880313873,The results implicate a novel mutation in the Plasmodium berghei PbCRT ortholog of the Plasmodium falciparum chloroquine resistance transporter Pfcrt.,1
+18092,5,5,5,0.7692000269889832,See recent manuscript by Dalrymple et al. ,0
+12085,2,2,2,0.459199994802475,"That said, the overall statistical approach to evaluating HOME and SES was not optimal.",0
+21258,4,2,2,0.6025000214576721,"Thus, when estimating for true burden of malaria, could the authors clarify whether B TRUE is a value that has been adjusted two times?",0
+14645,6,6,4,0.678600013256073,"Limitations to the paper were not discussed, but are detail is in linked papers.",0
+62,3,0,6,0.4025000035762787,"It would appear that homozygous loss of function mutations are more common than previously realised and, furthermore, the consequences of loss of function mutations are much more variable than previously realised.",0
+16714,3,0,6,0.415800005197525,"There is a paucity of data regarding the safety of medications during pregnancy, mainly due to the ethical and logistical constraints.",0
+9346,0,6,5,0.496399998664856,This is problematic since the paper focuses on the role of CTCF in various infection and latency scenarios.,0
+10441,2,2,2,0.4262999892234802,This is a very useful BIGSdb functionality as it allows capturing the entire sequence variation rather than just its summary based on allele identifiers.,1
+5944,4,4,4,0.4154999852180481,The authors use gender and social norms almost interchangeably; it would be important to understand if they think they differ at all.,0
+2477,6,6,1,0.4120000004768372,The activity shown in the paper can be a good example showing this kind of possibility.,0
+12609,6,6,0,0.3472000062465668,Serosurveys without concurrent estimates of vaccination coverage can be valuable to immunization programs but would not have been included in this systematic review.,1
+19765,2,6,3,0.4925999939441681,Significant issues The summary of the strengths and weaknesses of the data is very clear and comprehensive.,0
+6655,2,6,3,0.4327999949455261,Their findings certainly echo my own experience with sharing INDEPTH data through the Wellcome-funded iSHARE2 inititiative.,0
+2339,0,0,0,0.350600004196167,"In particular, the PPHD mutation-dependent increased concentration of pyocyanin in bacterial supernatants was characterized and associated with increased neutrophil apoptosis.",1
+20540,0,0,6,0.6243000030517578,Bacterial vaginosis is more common in women who smoke and both BV and smoking are linked by common sequelae such as PTB.,0
+3887,6,6,3,0.4246000051498413,"Overall the study is technically sound and clearly demonstrates the broad applicability and utility of the knocksideways approach in P. berghei, forming a complement to the recent publication of a similar proof of principle which tagged 12 targets in P. falciparum (PMID: 28288121).",0
+15110,2,2,6,0.4722000062465668,"Although it seems likely that most of the observed proteome changes are due to increased v-Src kinase activity, no control was included to rule out the possibility that some of the changes might be due to a noncatalytic function of overexpressed v-Src.",0
+14359,3,6,3,0.5371999740600586,"The paper is thorough and well-written, and validly attempts to progress our understanding of this area of research.",0
+19074,0,5,0,0.35420000553131104,"Hepatotoxicity by pyrrolizidine alkaloids, often a composition in Ayurvedic medicine has been long recognized.",1
+7644,6,6,6,0.5127999782562256,"In this context and in relation to their SEM data, it is important to discuss the role of the delta-helix in CD81 dimerisation 1 .",1
+15234,1,1,1,0.4384999871253967,"This might be discernable from the data in Figure 3B, however it is not clear which isolates have longer subtelomeric regions.",0
+19434,2,2,6,0.6281999945640564,I believe the authors have pre-specified sufficient outcome-neutral tests to test the stated hypotheses.,0
+7516,2,2,2,0.8460999727249146,Enough information has been provided to be able to replicate the experiment.,1
+7377,2,2,4,0.4090999960899353,How was the form of the covariate in the model decided upon e.g. elevation 2 is included in the model.,0
+840,2,6,0,0.35179999470710754,"But the stimuli are typically counter-balanced or randomly assigned across experimental conditions (e.g., studied items or non-studied items) and across subjects, in which case, modeling random effects for the stimuli is not necessary.",1
+8816,0,2,0,0.3686999976634979,"Introduction Genomic research raises a number of challenges for the informed consent process and it is not clear why there is a focus on incidental findings only, particularly as the results speak to a wider range of issues.",1
+21104,0,2,2,0.5192000269889832,Only year is in the shared data.,1
+7690,3,3,0,0.25099998712539673,The fact that LEDGF p75 has an effect on DNA damage response (figure 3c) is not new.,1
+16387,2,2,6,0.5002999901771545,This low depth leads to weak association with bulk RNA seq data.,1
+16144,6,3,6,0.4408999979496002,My view as a reader is therefore that this data does not provide convincing evidence that the change in diagnostics was the driver of the small changes in mortality.,0
+14026,6,2,0,0.3750999867916107,"This is highly commendable, but unfortunately also implies that partial description of each software is needed to follow-up without the need of re-reading all the original articles.",1
+2998,0,6,6,0.6155999898910522,"Moreover, it also justifies some reflection on the relationship between legal and moral considerations.",0
+6195,6,6,4,0.42179998755455017,"If point 1 above is address, this will lay the foundation for having an engaging discussion.",0
+3904,6,3,2,0.5220000147819519,"In summary, a paper with high technical standards that comprehensively introduces a new conditional approach to the Plasmodium genetic toolkit that has very specific advantages of rapidity and applicability to transmission stages.",1
+12933,2,1,4,0.5005999803543091,The criteria for inclusion exclusion of the events and policies listed in the Timeline of Figure 1 is not provided.,0
+11074,4,6,5,0.5516999959945679,"Upstream regulators that were predicted to be down regulated, despite not being DE themselves’, do you mean that they are upstream regulators for down-regulated genes?",0
+20251,0,6,0,0.3914999961853027,"The most upregulated was miR-155-3p, derived from a pri-miR-155 (B cell integration cluster RNA - BIC).",1
+12658,0,2,4,0.6600000262260437,"For example, if I search “Nigeria polio serosurvey,” I get zero hits, but if I search “Nigeria polio seroprevalence,” I get 13 hits.",0
+3900,6,6,3,0.6772000193595886,Some comment on the likely scalability and strengths weaknesses would have been interesting.,0
+10500,3,6,0,0.3808999955654144,"This work by Lai et al. tells a very interesting story studying the effect of cellular nutrients availability, such as glucose and glutamine, on transcriptional responses to low oxygen.",1
+8431,2,2,5,0.4462000131607056,What is the rational for including people who did not use powered chairs in group B?,0
+18145,2,6,6,0.4499000012874603,I understand this from the point of the use case - it's sensible to provide supporting evidence for their tools.,0
+3691,3,6,3,0.6079999804496765,This is a valuable and well researched article of a proper scientific standard.,1
+17986,3,6,3,0.5480999946594238,The paper is clearly written and overall I would consider the analysis plan for this study appropriate.,0
+17977,2,4,4,0.44190001487731934,"Paragraph 3, in the last few sentences, for the overall scoring criteria, score 3 for “I” shape, score 2 for “X” shape and score 1 for “O” shape does not match with the scoring criteria mentioned in figure 1.",1
+17384,2,2,4,0.4424000084400177,Why are both parametric and non-parametric tests proposed?,1
+9111,2,0,4,0.4715999960899353,"The genome addresses provided suggested that they are using linkage peaks perhaps, or CNV boundaries?",0
+9414,0,0,0,0.7692000269889832,"I do have some, mostly minor, queries that I detail below.",1
+18970,0,0,0,0.5127999782562256,Would this be a second recommended option?,1
+11872,5,5,2,0.4966999888420105,How is this effort different from the Locus Reference Genome (LRG) effort?,0
+8489,0,0,1,0.5382999777793884,Are they a representation of the PWC wheels?,0
+7802,5,5,5,0.4156999886035919,And EPCR IMCA1 but not CD36 icam1 is found more frequently in CM (lennartz et al 2017).,0
+14537,3,6,3,0.7552000284194946,The study is a well-conducted study and very strong article with respect to the dwindling and erratic human resource constraints plaguing the greater Sub-Saharan Africa.,0
+11960,5,0,1,0.5558000206947327,This is particularly so in studies from low and middle income countries.,0
+968,1,1,1,0.7251999974250793,"In Figure 2, please make it clearer what the original text is from which the figure is derived.",0
+1339,6,0,1,0.4997999966144562,"Here, they demonstrated that ETV4 is multi-sumoylated when co-expressed in HEK293T cells together with UBE2 UBC9, PIAS4 and WT SUMO3 or K11R SUMO3.",0
+13631,2,2,2,0.6690999865531921,"Describe computational requirements (operating system, CPUs, RAM, time, etc.",0
+1429,6,0,0,0.8461999893188477,Some questions and suggestions may help to improve the manuscript.,1
+8752,6,2,2,0.4456999897956848,This manuscript “Optimization of ex vivo memory B-cell expansion differentiation for interrogation of rare peripheral memory B-cell subset responses” describes a very thorough and systematic screening of various reagents combinations and concentrations with the goal to optimize culture conditions for the ex-vivo expansion and antibody secreting cells (ACS) differentiation of peripheral B-cell subsets.,1
+5290,5,5,5,0.5019999742507935,This could also cause the discrepancy reported between this data and those previously published by O'Connor et al.,0
+9738,6,0,2,0.4075999855995178,"The authors however, reported that a limitation of the study was that BS was not compared to the gold standard.",1
+7533,6,4,0,0.2946000099182129,"I think rephrasing the captions for columns 6 and 7 and or including a note with the used formulas will greatly increase the readability of the table (e.g. something like “Luminex sensitivity”, L and Ref Ref for column 6 and “additional Luminex positive”, L Ref- for column 7).",1
+16154,5,5,5,0.4632999897003174,Some of the authors have argued the opposite in their recent paper on Xpert Ultra so you can’t have it both ways.,0
+13305,0,2,5,0.6014000177383423,The paper reports on the experience gathered by members of the METF CE team in the course of their activities.,0
+15497,1,1,1,0.6952000260353088,Figure 2: picture of larvae referred to as “larvae hatching on oviposition substrate” shows what appears to be a L3 (with 2 sets of caudal setae).,0
+22374,0,3,3,0.5541999936103821,Snowballing for stakeholders will ultimately lead to people who have the same mindset and view of an issue and can be extremely biased at most.,0
+21536,4,4,6,0.4327000081539154,"Although conclusions are clear and supported by the data presented, it was difficult to follow the definitions of the variables used and which data defined them.",0
+1004,0,0,4,0.8154000043869019,Indeed the authors then state they are considering use of MongoDb (using RDF or not ).,0
+22499,0,0,4,0.5189999938011169,It sounds like they do in the introduction.,1
+7362,4,4,2,0.5192999839782715,What do you mean by unique locations in the districts?,0
+16508,4,4,0,0.22360000014305115,Comment 2: the sequence of subsections as presented is confusing.,1
+2512,0,2,2,0.4172999858856201,"The residency sets out to ‘explore, challenge and shape perceptions and understanding of dementias through science and the creative arts’.",0
+11922,0,4,4,0.4903999865055084,"6) Page 13, Discussion Para 3: states NAM and meNAM cross the BBB and are also taken up into the kidney.",0
+276,3,3,3,0.4392000138759613,"In view of the increased interest in using CRISPR engineering to modify human neurons and mimic disease in cell cultures, this paper will likely increase the number of laboratories that are interested in utilising LUHMES cells.",0
+4523,4,4,1,0.5130000114440918,"P8, right column, row 1 from top: check spelling.",0
+19752,6,0,0,0.3677999973297119,This is a very informative description of a particular cohort of children called ALSPAC-G2.,1
+4473,6,4,2,0.8460999727249146,"The terms “significant”, “significantly different” etc are rather over-used redundantly.",0
+20701,6,3,3,0.607200026512146,General observations A native call set of the 1000 genomes project data on GRCh38 is quite an important effort.,1
