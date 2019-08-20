@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+13394	The authors may think that they are well aware of the stakeholder landscape in English NHS and are already considering these in the study.	6	-1			Assign to each sentence a number label according to the following categories:	
+13573	Lab based specificity test would be the next step before field applications, but can anything be said about the initial primer selection procedures based on the blast assessment?	2	0			0	No Category
+15539	These considerations would be important for developers and to have a better understanding of the sand fly biology involved.	6	0			1	Figures/Non-textual content
+22297	As it presently reads, the construct of community engagement is under-theorized.	6	-1	possibly also 4		2	Stats/Analysis/Techniques
+6274	The authors utilize free-text responses to an anonymous web-based survey from 135 subjects who reported receiving a diagnosis of NES made by a health professional.	2	0			3	Impact/Novelty
+17793	It is not mentioned in material and methods why exactly 103 out of 231 samples were screened microscopically.	4	-1	possibly 2 too, as its about a technique		4	Text/Exposition Clarity
+14414	I realise it is a small sample size, but was this examined?	2	-1			5	Previous Literature
+20614	It is the only defense against arbitrary eviction 6 .	0	0			6	Main Discussion
+7093	In this paper in which details are reported in supplementary article in Science website.	0	0	this looks like an incomplete comment			
+14470	In addition the interim data release (which seems to be what is used here - please clarify in the methods whether the data comes from the interim (2015) or full (2017) data release) featured some discrepancies between the two chips, which can introduce spurious associations especially if adjustment is not made for genotyping chip.	2	-1			Assign a "sentiment" to the sentences:	
+5924	Overall this is an interesting article and offers some important insights for practitioners and researchers working at the intersection between social psychology and gender theory.	3	1			0	Neutral sentiment (or no sentiment)
+3780	Transcription of T III 1”: chap.	0	0	this looks like an incomplete comment		-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+9171	Both male and female animals were utilized throughout.	2	0			1	Positive sentiment (e.g. praises, compliments, etc.)
+14498	The authors could also draw on literature on regime complexity in other policy areas.	5	0				
+13901	This part of the discussion appears to be confused for me.	4	-1			Category explanation:	
+19589	Pg 8 para 4- the last sentence needs to be elaborated upon, including what the possibility for epitope specific antibody read-outs that might well differ between vaccine constructs.	4	-1			0	Assign sentences to this group if you think they don't fit with any of the other categories
+13157	Particularly on page 6, under "frameworks of priority-setting".	0	0	this looks like an incomplete comment		1	This category groups sentences that discuss figures or other non-textual content
+4739	This association between the physiology of passions and their moral or philosophical characterization remains the most intriguing and exciting part of the paper.	3	1			2	This category groups sentences about the following topics:
+16205	In results it would be helpful to be clear on how you mean by the “translator”.	4	-1				- Statistics and Data Analysis
+16957	Ultimately, above all, more importantly are the paper's weaknesses that should be addressed.	6	-1				- Models and Simulations
+13275	First, the article cites community engagement (CE) as crucial to malaria elimination.	5	0				- Experimental Techniques
+5678	The results implicate a novel mutation in the Plasmodium berghei PbCRT ortholog of the Plasmodium falciparum chloroquine resistance transporter Pfcrt.	3	0				- General Methodology
+18092	See recent manuscript by Dalrymple et al.	5	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+12085	That said, the overall statistical approach to evaluating HOME and SES was not optimal.	2	-1			4	This category groups sentences that discuss:
+21258	Thus, when estimating for true burden of malaria, could the authors clarify whether B TRUE is a value that has been adjusted two times?	4	0				- The clarity of the text (e.g. typos, word replacements, etc.)
+14645	Limitations to the paper were not discussed, but are detail is in linked papers.	6	0				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+62	It would appear that homozygous loss of function mutations are more common than previously realised and, furthermore, the consequences of loss of function mutations are much more variable than previously realised.	3	0			5	This category groups sentences that mention previous literature on the subject.
+16714	There is a paucity of data regarding the safety of medications during pregnancy, mainly due to the ethical and logistical constraints.	3	-1	it's unclear if this is a criticism of the paper, or the state of the field		6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+9346	This is problematic since the paper focuses on the role of CTCF in various infection and latency scenarios.	0	-1	unclear what "this" is without preceding text			- General discussion about the correctness/soundness of the study
+10441	This is a very useful BIGSdb functionality as it allows capturing the entire sequence variation rather than just its summary based on allele identifiers.	2	1				- Suggestions and improvements 
+5944	The authors use gender and social norms almost interchangeably; it would be important to understand if they think they differ at all.	4	-1				- Corrections
+2477	The activity shown in the paper can be a good example showing this kind of possibility.	6	1				
+12609	Serosurveys without concurrent estimates of vaccination coverage can be valuable to immunization programs but would not have been included in this systematic review.	6	0			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+19765	Significant issues The summary of the strengths and weaknesses of the data is very clear and comprehensive.	2	1				
+6655	Their findings certainly echo my own experience with sharing INDEPTH data through the Wellcome-funded iSHARE2 inititiative.	2	0				
+2339	In particular, the PPHD mutation-dependent increased concentration of pyocyanin in bacterial supernatants was characterized and associated with increased neutrophil apoptosis.	0	0				
+20540	Bacterial vaginosis is more common in women who smoke and both BV and smoking are linked by common sequelae such as PTB.	0	0				
+3887	Overall the study is technically sound and clearly demonstrates the broad applicability and utility of the knocksideways approach in P. berghei, forming a complement to the recent publication of a similar proof of principle which tagged 12 targets in P. falciparum (PMID: 28288121).	6	1	also 5			
+15110	Although it seems likely that most of the observed proteome changes are due to increased v-Src kinase activity, no control was included to rule out the possibility that some of the changes might be due to a noncatalytic function of overexpressed v-Src.	2	-1				
+14359	The paper is thorough and well-written, and validly attempts to progress our understanding of this area of research.	3	1				

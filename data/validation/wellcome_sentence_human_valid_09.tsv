@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+3900	Some comment on the likely scalability and strengths weaknesses would have been interesting.	6	0			Assign to each sentence a number label according to the following categories:	
+10500	This work by Lai et al. tells a very interesting story studying the effect of cellular nutrients availability, such as glucose and glutamine, on transcriptional responses to low oxygen.	6	1			0	No Category
+8431	What is the rational for including people who did not use powered chairs in group B?	2	0			1	Figures/Non-textual content
+18145	I understand this from the point of the use case - it's sensible to provide supporting evidence for their tools.	6	1			2	Stats/Analysis/Techniques
+3691	This is a valuable and well researched article of a proper scientific standard.	6	1			3	Impact/Novelty
+17986	The paper is clearly written and overall I would consider the analysis plan for this study appropriate.	6	1	This could also possibly have a label of 2		4	Text/Exposition Clarity
+17977	Paragraph 3, in the last few sentences, for the overall scoring criteria, score 3 for “I” shape, score 2 for “X” shape and score 1 for “O” shape does not match with the scoring criteria mentioned in figure 1.	4	-1	This could also possibly have a label of 6		5	Previous Literature
+17384	Why are both parametric and non-parametric tests proposed?	2	0			6	Main Discussion
+9111	The genome addresses provided suggested that they are using linkage peaks perhaps, or CNV boundaries?	0	0				
+9414	I do have some, mostly minor, queries that I detail below.	0	0			Assign a "sentiment" to the sentences:	
+18970	Would this be a second recommended option?	0	0			0	Neutral sentiment (or no sentiment)
+11872	How is this effort different from the Locus Reference Genome (LRG) effort?	5	0			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+8489	Are they a representation of the PWC wheels?	0	0			1	Positive sentiment (e.g. praises, compliments, etc.)
+7802	And EPCR IMCA1 but not CD36 icam1 is found more frequently in CM (lennartz et al 2017).	5	0				
+14537	The study is a well-conducted study and very strong article with respect to the dwindling and erratic human resource constraints plaguing the greater Sub-Saharan Africa.	6	1			Category explanation:	
+11960	This is particularly so in studies from low and middle income countries.	0	0			0	Assign sentences to this group if you think they don't fit with any of the other categories
+968	In Figure 2, please make it clearer what the original text is from which the figure is derived.	1	-1			1	This category groups sentences that discuss figures or other non-textual content
+1339	Here, they demonstrated that ETV4 is multi-sumoylated when co-expressed in HEK293T cells together with UBE2 UBC9, PIAS4 and WT SUMO3 or K11R SUMO3.	0	0			2	This category groups sentences about the following topics:
+13631	Describe computational requirements (operating system, CPUs, RAM, time, etc.	2	0				- Statistics and Data Analysis
+1429	Some questions and suggestions may help to improve the manuscript.	0	0				- Models and Simulations
+8752	This manuscript “Optimization of ex vivo memory B-cell expansion differentiation for interrogation of rare peripheral memory B-cell subset responses” describes a very thorough and systematic screening of various reagents combinations and concentrations with the goal to optimize culture conditions for the ex-vivo expansion and antibody secreting cells (ACS) differentiation of peripheral B-cell subsets.	6	1				- Experimental Techniques
+5290	This could also cause the discrepancy reported between this data and those previously published by O'Connor et al.	5	0				- General Methodology
+9738	The authors however, reported that a limitation of the study was that BS was not compared to the gold standard.	6	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+7533	I think rephrasing the captions for columns 6 and 7 and or including a note with the used formulas will greatly increase the readability of the table (e.g. something like “Luminex sensitivity”, L and Ref Ref for column 6 and “additional Luminex positive”, L Ref- for column 7).	6	0			4	This category groups sentences that discuss:
+16154	Some of the authors have argued the opposite in their recent paper on Xpert Ultra so you can’t have it both ways.	5	-1				- The clarity of the text (e.g. typos, word replacements, etc.)
+13305	The paper reports on the experience gathered by members of the METF CE team in the course of their activities.	0	0				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+15497	Figure 2: picture of larvae referred to as “larvae hatching on oviposition substrate” shows what appears to be a L3 (with 2 sets of caudal setae).	1	0			5	This category groups sentences that mention previous literature on the subject.
+22374	Snowballing for stakeholders will ultimately lead to people who have the same mindset and view of an issue and can be extremely biased at most.	0	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+21536	Although conclusions are clear and supported by the data presented, it was difficult to follow the definitions of the variables used and which data defined them.	4	0	This could be a 1 or -1 sentiment so I went for 0			- General discussion about the correctness/soundness of the study
+1004	Indeed the authors then state they are considering use of MongoDb (using RDF or not ).	0	0				- Suggestions and improvements 
+22499	It sounds like they do in the introduction.	0	0				- Corrections
+7362	What do you mean by unique locations in the districts?	4	0				
+16508	Comment 2: the sequence of subsections as presented is confusing.	4	-1			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+2512	The residency sets out to ‘explore, challenge and shape perceptions and understanding of dementias through science and the creative arts’.	0	0				
+11922	6) Page 13, Discussion Para 3: states NAM and meNAM cross the BBB and are also taken up into the kidney.	0	0				
+276	In view of the increased interest in using CRISPR engineering to modify human neurons and mimic disease in cell cultures, this paper will likely increase the number of laboratories that are interested in utilising LUHMES cells.	3	1				
+4523	P8, right column, row 1 from top: check spelling.	4	-1				
+19752	This is a very informative description of a particular cohort of children called ALSPAC-G2.	6	1				
+4473	The terms “significant”, “significantly different” etc are rather over-used redundantly.	6	-1				
+20701	General observations A native call set of the 1000 genomes project data on GRCh38 is quite an important effort.	6	1				

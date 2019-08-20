@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+3301	The 10 is commonly used, but the reference needs to be added.	4	0			Assign to each sentence a number label according to the following categories:	
+7790	Quote: “It was initially proposed that DCs may act as functional units.	0	0			0	No Category
+8702	In addition, the ethical statement on page 5 is still duplicated on page 8.	4	0			1	Figures/Non-textual content
+7987	In the present study Billman et al. used single-molecule RNA-FISH to quantify the expression of HTLV-1 transcripts at the single-cell level.	2	0			2	Stats/Analysis/Techniques
+1360	In contrast, RNF4 in Figure 2D is depicted with 4 SIMs in Figure 2D, which is the correct number of SIMs.	1	0			3	Impact/Novelty
+17723	It would be good to see an example of how the truncation of the display at 800 nm does not affect the modelling and calculation results - and how to use the software in that case.	2	0			4	Text/Exposition Clarity
+13046	A further correlation analysis with behavioral parameters would also be a plus.	2	0			5	Previous Literature
+16723	The technique creates lists of issues ranked as the most important for achieving a goal and issues that are less important to achieving the goal and are more difficult to perform.	2	1			6	Main Discussion
+13673	What do the P-values on the title of the Figure 3 correspond to?	1	0				
+4826	I am very happy with the author's revisions, which I think have significantly strengthened the article.	4	1			Assign a "sentiment" to the sentences:	
+6490	The authors and engagement team are described as local.	0	0			0	Neutral sentiment (or no sentiment)
+9157	Supp File-1, Fig. 2C appears to show that 500 nM TTX had no effect on intracellular Na levels yet the mRNA levels in DRGs for both PENK and nFAT5 are significantly increased by TTX (Fig. 3B).	1	0			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+3915	For GAP50 an Ookinete phenotype was also shown, demonstrating the use of KS to study essential proteins in transmission stages.	2	0			1	Positive sentiment (e.g. praises, compliments, etc.)
+5524	Was there absolutely no deviation from the cited papers?	5	0				
+11029	It is a pleasure to read the article.	4	1			Category explanation:	
+20282	All three figures (Figure 1-3) are in poor resolution.	1	-1			0	Assign sentences to this group if you think they don't fit with any of the other categories
+8554	There may be need to clarify that they both used inductive and deductive approaches in the methods section.	2	0			1	This category groups sentences that discuss figures or other non-textual content
+3155	I am happy with the changes made and think that this is an important contribution to the field.	3	1			2	This category groups sentences about the following topics:
+18889	The authors showed no impact of TXA administration compared to placebo on ETP and platelet function.	2	-1				- Statistics and Data Analysis
+19245	For these reasons, I would caution the authors not to draw conclusions from the comparisons of crude mortality rates in unadjusted analyses when the underlying disease severity may be very different among those who received transfusions compared to those who did not.	2	-1				- Models and Simulations
+3025	Remember, this is a research study, not a clinical setting.	6	-1				- Experimental Techniques
+20074	If yes, it should be worth to include them.	1	1				- General Methodology
+22346	For example, on page 5, the authors note that “The review will include all the pertinent documents published in English language only.”	5	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+19690	IHME does not engage in similar country consultation processes prior to publication.	0	0			4	This category groups sentences that discuss:
+12759	A number of concerns reduces the enthusiasm for this report:	3	-1				- The clarity of the text (e.g. typos, word replacements, etc.)
+7295	The authors discuss that the “accumulation of DNA damage could however be independent of telomere length as it has been shown telomere associated DNA-damage response proteins do not differ in length from those that are negative for DNA damage markers (51).”	6	0				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+21210	In my opinion, this important manuscript can be approved for indexing.	3	1			5	This category groups sentences that mention previous literature on the subject.
+13858	The utility of the protocol is clearly stated and well illustrated in the videos.	1	1			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+12518	The correlation in Fig S3B is clearer.	1	1				- General discussion about the correctness/soundness of the study
+15728	The risk of equine antitoxin is described variously as theoretical and infrequent ( 1 ).	2	-1				- Suggestions and improvements 
+9306	Supporting information: Suggests there’s no need for figure A2, as figure A1 already depicts the relative amounts in the stacked bars.	1	0				- Corrections
+19899	Perhaps, if feasible, a rough estimate of number of researcher visits to schools could also be given.	6	0				
+16860	As a result, computational analyses suffer from noise introduced by the read-through events that are almost impossible to differentiate from the actual truncated cDNAs.	2	-1			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+16564	For this purpose the authors developed a set of plasmids.	2	0				
+20062	It is worth to mention that TwinsUK offers facilities and encourages the sharing of data with the scientific community to further scientific research.	6	0				
+10546	There are a lot of evidences showing how the space alters the quality of the evidence.	6	1				
+2174	The study is ambitious, but with their track record, this group are highly likely to complete this crucial piece of work and definitively answer the question they have raised.	3	1				
+16868	By ligating a specific oligonucleotide to the 5’ ends of cross-linked RNAs, they can roughly quantify the degree of read-through and determine whether the sequence characteristics of the read-through fragments are similar to the truncated cDNAs.	2	0				
+245	The data also provide useful information with respect to various technical aspects of performing genome-wide screens.	3	1				
+2867	To confirm the phenotype was caused specifically by loss of lamc3, I suggest the authors to examine whether lamc3 mRNA could rescue the phenotypes in morphants and mutants.	6	0				

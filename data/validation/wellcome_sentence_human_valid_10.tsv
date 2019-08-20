@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+8752	This manuscript “Optimization of ex vivo memory B-cell expansion differentiation for interrogation of rare peripheral memory B-cell subset responses” describes a very thorough and systematic screening of various reagents combinations and concentrations with the goal to optimize culture conditions for the ex-vivo expansion and antibody secreting cells (ACS) differentiation of peripheral B-cell subsets.	2	0			Assign to each sentence a number label according to the following categories:	
+5290	This could also cause the discrepancy reported between this data and those previously published by O'Connor et al.	5	-1			0	No Category
+9738	The authors however, reported that a limitation of the study was that BS was not compared to the gold standard.	0	0			1	Figures/Non-textual content
+7533	I think rephrasing the captions for columns 6 and 7 and or including a note with the used formulas will greatly increase the readability of the table (e.g. something like “Luminex sensitivity”, L and Ref Ref for column 6 and “additional Luminex positive”, L Ref- for column 7).	4	-1			2	Stats/Analysis/Techniques
+16154	Some of the authors have argued the opposite in their recent paper on Xpert Ultra so you can’t have it both ways.	5	-1			3	Impact/Novelty
+13305	The paper reports on the experience gathered by members of the METF CE team in the course of their activities.	2	0			4	Text/Exposition Clarity
+15497	Figure 2: picture of larvae referred to as “larvae hatching on oviposition substrate” shows what appears to be a L3 (with 2 sets of caudal setae).	1	0			5	Previous Literature
+22374	Snowballing for stakeholders will ultimately lead to people who have the same mindset and view of an issue and can be extremely biased at most.	3	0			6	Main Discussion
+21536	Although conclusions are clear and supported by the data presented, it was difficult to follow the definitions of the variables used and which data defined them.	4	-1				
+1004	Indeed the authors then state they are considering use of MongoDb (using RDF or not ).	0	0			Assign a "sentiment" to the sentences:	
+22499	It sounds like they do in the introduction.	0	0			0	Neutral sentiment (or no sentiment)
+7362	What do you mean by unique locations in the districts?	4	0			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+16508	Comment 2: the sequence of subsections as presented is confusing.	4	-1			1	Positive sentiment (e.g. praises, compliments, etc.)
+2512	The residency sets out to ‘explore, challenge and shape perceptions and understanding of dementias through science and the creative arts’.	2	0				
+11922	6) Page 13, Discussion Para 3: states NAM and meNAM cross the BBB and are also taken up into the kidney.	4	0			Category explanation:	
+276	In view of the increased interest in using CRISPR engineering to modify human neurons and mimic disease in cell cultures, this paper will likely increase the number of laboratories that are interested in utilising LUHMES cells.	3	1			0	Assign sentences to this group if you think they don't fit with any of the other categories
+4523	P8, right column, row 1 from top: check spelling.	4	-1			1	This category groups sentences that discuss figures or other non-textual content
+19752	This is a very informative description of a particular cohort of children called ALSPAC-G2.	0	0			2	This category groups sentences about the following topics:
+4473	The terms “significant”, “significantly different” etc are rather over-used redundantly.	4	-1				- Statistics and Data Analysis
+20701	General observations A native call set of the 1000 genomes project data on GRCh38 is quite an important effort.	3	1				- Models and Simulations
+2311	Indoor air pollution and pneumonia is a well-recognised association in children.	6	0				- Experimental Techniques
+1488	A brief description of the method of analysis should also be included.	2	-1				- General Methodology
+21266	Here, Murphy et al. reported an open-source MATLAB program named MyoCount for automatic quantification of myotube surface area and nuclear fusion index through analyzing immunofluorescence-stained images of myotube cultures.	2	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+15211	A principal, convincing finding was that the new boundaries have reassigned several multi-gene families from the subtelomeric sites to the chromosome core.	6	1			4	This category groups sentences that discuss:
+17619	Would this affect the detection rate of respiratory viruses in infants?	2	0				- The clarity of the text (e.g. typos, word replacements, etc.)
+9755	What are the primary differences between the manufacturer and the author-developed training materials?	2	0				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+12450	Kadic et al., should be corrected to Jelicic Kadic et al.	5	-1			5	This category groups sentences that mention previous literature on the subject.
+323	Conversely, using a larger bin size will smooth the data, which can be useful for clarity of the results but can also result in a loss of resolution.	2	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+23	The level of granularity in the scoring of the phenotypes is a major strength of the paper, and reflects the deep and unique expertise of the team.	3	1				- General discussion about the correctness/soundness of the study
+20842	It might help to modify the end of the sentence to say “ in these cases other data are suppressed”.	6	0				- Suggestions and improvements 
+1035	In the box on the lower left, Fig 2, why are there multiple quote marks: “CSF-1””induces expression ” and what do these mean?	1	0				- Corrections
+10123	However, the CISS measure of emotion-oriented coping is comprised of items that are largely about self-blame, which would be categorized by other coping scales as ineffectual coping.	0	0				
+19321	Recent work has shown that there are two pathways for cohesin removal in meiosis in budding yeast.	5	0			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+3856	Overall the study presented is sound and the results justify the conclusions.	3	1				
+9041	This partial expression is substantially lower than most X-linked genes that escape inactivation.	6	0				
+15274	It is very laborious as a reviewer to check all references one by one.	4	-1				
+1659	Is this the contrast of the mean response across inclusion levels or is it a parametric response?	2	0				
+2913	However, the main text indicates that the pull device is located 8m away from the volunteer.	0	0				
+22447	I also wonder how collecting data from people in low- and middle income countries (LMIC) would be considered by the authors: Does this count as healthcare knowledge creation on the side of people in LMIC countries, or does it increase the new social division between data givers and data takers?	0	0				
+5948	Methods Study procedures are very thoroughly explained and well thought.	2	1				

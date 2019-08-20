@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+19074	Hepatotoxicity by pyrrolizidine alkaloids, often a composition in Ayurvedic medicine has been long recognized.	5	0			Assign to each sentence a number label according to the following categories:	
+7644	In this context and in relation to their SEM data, it is important to discuss the role of the delta-helix in CD81 dimerisation 1 .	6	-1			0	No Category
+15234	This might be discernable from the data in Figure 3B, however it is not clear which isolates have longer subtelomeric regions.	1	-1			1	Figures/Non-textual content
+19434	I believe the authors have pre-specified sufficient outcome-neutral tests to test the stated hypotheses.	2	1			2	Stats/Analysis/Techniques
+7516	Enough information has been provided to be able to replicate the experiment.	2	1			3	Impact/Novelty
+7377	How was the form of the covariate in the model decided upon e.g. elevation 2 is included in the model.	2	0			4	Text/Exposition Clarity
+840	But the stimuli are typically counter-balanced or randomly assigned across experimental conditions (e.g., studied items or non-studied items) and across subjects, in which case, modeling random effects for the stimuli is not necessary.	6	0			5	Previous Literature
+8816	Introduction Genomic research raises a number of challenges for the informed consent process and it is not clear why there is a focus on incidental findings only, particularly as the results speak to a wider range of issues.	2	-1			6	Main Discussion
+21104	Only year is in the shared data.	2	-1				
+7690	The fact that LEDGF p75 has an effect on DNA damage response (figure 3c) is not new.	3	-1			Assign a "sentiment" to the sentences:	
+16387	This low depth leads to weak association with bulk RNA seq data.	2	-1			0	Neutral sentiment (or no sentiment)
+16144	My view as a reader is therefore that this data does not provide convincing evidence that the change in diagnostics was the driver of the small changes in mortality.	3	-1			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+14026	This is highly commendable, but unfortunately also implies that partial description of each software is needed to follow-up without the need of re-reading all the original articles.	2	-1			1	Positive sentiment (e.g. praises, compliments, etc.)
+2998	Moreover, it also justifies some reflection on the relationship between legal and moral considerations.	6	0				
+6195	If point 1 above is address, this will lay the foundation for having an engaging discussion.	6	0			Category explanation:	
+3904	In summary, a paper with high technical standards that comprehensively introduces a new conditional approach to the Plasmodium genetic toolkit that has very specific advantages of rapidity and applicability to transmission stages.	3	1			0	Assign sentences to this group if you think they don't fit with any of the other categories
+12933	The criteria for inclusion exclusion of the events and policies listed in the Timeline of Figure 1 is not provided.	1	-1			1	This category groups sentences that discuss figures or other non-textual content
+11074	Upstream regulators that were predicted to be down regulated, despite not being DE themselves’, do you mean that they are upstream regulators for down-regulated genes?	6	0			2	This category groups sentences about the following topics:
+20251	The most upregulated was miR-155-3p, derived from a pri-miR-155 (B cell integration cluster RNA - BIC).	6	0				- Statistics and Data Analysis
+12658	For example, if I search “Nigeria polio serosurvey,” I get zero hits, but if I search “Nigeria polio seroprevalence,” I get 13 hits.	2	0				- Models and Simulations
+3900	Some comment on the likely scalability and strengths weaknesses would have been interesting.	6	0				- Experimental Techniques
+10500	This work by Lai et al. tells a very interesting story studying the effect of cellular nutrients availability, such as glucose and glutamine, on transcriptional responses to low oxygen.	3	1				- General Methodology
+8431	What is the rational for including people who did not use powered chairs in group B?	2	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+18145	I understand this from the point of the use case - it's sensible to provide supporting evidence for their tools.	2	0			4	This category groups sentences that discuss:
+3691	This is a valuable and well researched article of a proper scientific standard.	3	1				- The clarity of the text (e.g. typos, word replacements, etc.)
+17986	The paper is clearly written and overall I would consider the analysis plan for this study appropriate.	3	1				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+17977	Paragraph 3, in the last few sentences, for the overall scoring criteria, score 3 for “I” shape, score 2 for “X” shape and score 1 for “O” shape does not match with the scoring criteria mentioned in figure 1.	2	-1			5	This category groups sentences that mention previous literature on the subject.
+17384	Why are both parametric and non-parametric tests proposed?	2	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+9111	The genome addresses provided suggested that they are using linkage peaks perhaps, or CNV boundaries?	2	0				- General discussion about the correctness/soundness of the study
+9414	I do have some, mostly minor, queries that I detail below.	0	0				- Suggestions and improvements 
+18970	Would this be a second recommended option?	0	0				- Corrections
+11872	How is this effort different from the Locus Reference Genome (LRG) effort?	5	0				
+8489	Are they a representation of the PWC wheels?	0	0			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+7802	And EPCR IMCA1 but not CD36 icam1 is found more frequently in CM (lennartz et al 2017).	5	0				
+14537	The study is a well-conducted study and very strong article with respect to the dwindling and erratic human resource constraints plaguing the greater Sub-Saharan Africa.	3	1				
+11960	This is particularly so in studies from low and middle income countries.	5	0				
+968	In Figure 2, please make it clearer what the original text is from which the figure is derived.	1	-1				
+1339	Here, they demonstrated that ETV4 is multi-sumoylated when co-expressed in HEK293T cells together with UBE2 UBC9, PIAS4 and WT SUMO3 or K11R SUMO3.	6	0				
+13631	Describe computational requirements (operating system, CPUs, RAM, time, etc.	2	0				
+1429	Some questions and suggestions may help to improve the manuscript.	6	0				

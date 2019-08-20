@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+16339	I would like to see included a more detailed account of the types of venues selected, with a number if possible.	2	-1			Assign to each sentence a number label according to the following categories:	
+18823	The paper of Thornton et al. presents a second version of the tool VERTEX (version 2.0).	5	0			0	No Category
+7731	Data security measures are also described on the Safe Haven websites.	5	0			1	Figures/Non-textual content
+3524	From the limited data that have been reported (reviewed critically in 1 ), it is indeed becoming evident that the energy metabolism of beta cells is unusual, with regulatory and control structures that are not typically found in other cells.	6	-1	mixed sentiment		2	Stats/Analysis/Techniques
+5849	I would therefore suggest the authors to encourage the use of more markers, even if I am convinced that this first screen mostly refutes the transmission hypothesis.	6	0			3	Impact/Novelty
+13802	It is unclear why this article is included.	5	-1			4	Text/Exposition Clarity
+8312	More information on a) which databases and resources were searched for articles and information and b) which references were used to derive the results.	2	-1			5	Previous Literature
+8640	Are the conclusions drawn adequately and supported by the results?	6	0	if this is a rheotorical question, then the sentiment is -1		6	Main Discussion
+18018	Is it easier for the reader to understand?	4	0	if this is a rheotorical question, then the sentiment is -1			
+12770	I regret that I lack the expertise to review the other aspects of phenotype collection or study design.	0	-1	the -ve sentiment is not towards the paper		Assign a "sentiment" to the sentences:	
+4615	Does such a virus qualify for a positive control?	2	0	if this is a rheotorical question, then the sentiment is -1		0	Neutral sentiment (or no sentiment)
+8571	There is some ambiguity about the overall aim of the engagement research.	6	-1			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+15064	Third, changes in FC consistently preceded changes in SC.	6	0			1	Positive sentiment (e.g. praises, compliments, etc.)
+8217	The authors are to be commended for the breadth of their analysis.	2	1				
+12339	A table to summarize these assays and provide references to their implementation elsewhere would be helpful in determined their likely efficacy.	4	-1			Category explanation:	
+19478	The current research note has sufficient details of the employed methods and analysis.	2	1	it could also be labelled 4 for method reporting		0	Assign sentences to this group if you think they don't fit with any of the other categories
+16417	Also, the text states that "Both analyses demonstrate that ap2-g expression is significantly increased over time (Figure 2b)" but Fig. 2b has no time component.	1	-1			1	This category groups sentences that discuss figures or other non-textual content
+7203	In Npc1 - - mice model, reduced activity of P450 enzymes was observed possibly as a result of bile acid deficiency imbalance, as bile acid treatment significantly rescued P450 enzyme activity in Npc1 - - mice.	6	0			2	This category groups sentences about the following topics:
+17025	may I suggest “ .. emergence or re-emergence of SEVERAL arboviruses ”	4	-1				- Statistics and Data Analysis
+16738	The paper analyses the needs and ranks the most pressing ones but gives no hint how precisely each identified need should be translated into research that provides evidence that an intervention actually is useful.	3	-1				- Models and Simulations
+13394	The authors may think that they are well aware of the stakeholder landscape in English NHS and are already considering these in the study.	6	0	mixed sentiment			- Experimental Techniques
+13573	Lab based specificity test would be the next step before field applications, but can anything be said about the initial primer selection procedures based on the blast assessment?	2	0	mixed categories, the first half is 3/6			- General Methodology
+15539	These considerations would be important for developers and to have a better understanding of the sand fly biology involved.	3	1			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+22297	As it presently reads, the construct of community engagement is under-theorized.	6	-1	Not sure if this is a comment on the previous literature		4	This category groups sentences that discuss:
+6274	The authors utilize free-text responses to an anonymous web-based survey from 135 subjects who reported receiving a diagnosis of NES made by a health professional.	2	0				- The clarity of the text (e.g. typos, word replacements, etc.)
+17793	It is not mentioned in material and methods why exactly 103 out of 231 samples were screened microscopically.	2	-1	it could also be labelled 4 for method reporting			- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+14414	I realise it is a small sample size, but was this examined?	2	-1			5	This category groups sentences that mention previous literature on the subject.
+20614	It is the only defense against arbitrary eviction 6 .	6	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+7093	In this paper in which details are reported in supplementary article in Science website.	5	0				- General discussion about the correctness/soundness of the study
+14470	In addition the interim data release (which seems to be what is used here - please clarify in the methods whether the data comes from the interim (2015) or full (2017) data release) featured some discrepancies between the two chips, which can introduce spurious associations especially if adjustment is not made for genotyping chip.	2	-1				- Suggestions and improvements 
+5924	Overall this is an interesting article and offers some important insights for practitioners and researchers working at the intersection between social psychology and gender theory.	3	1				- Corrections
+3780	Transcription of T III 1”: chap.	0	0	Not a full sentence			
+9171	Both male and female animals were utilized throughout.	2	1			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+14498	The authors could also draw on literature on regime complexity in other policy areas.	5	-1				
+13901	This part of the discussion appears to be confused for me.	6	-1				
+19589	Pg 8 para 4- the last sentence needs to be elaborated upon, including what the possibility for epitope specific antibody read-outs that might well differ between vaccine constructs.	4	-1				
+13157	Particularly on page 6, under "frameworks of priority-setting".	4	0	Full sentence, but doesn't really make any sense 			
+4739	This association between the physiology of passions and their moral or philosophical characterization remains the most intriguing and exciting part of the paper.	3	1				
+16205	In results it would be helpful to be clear on how you mean by the “translator”.	4	-1				
+16957	Ultimately, above all, more importantly are the paper's weaknesses that should be addressed.	6	-1	This reviewer cannot write :p			

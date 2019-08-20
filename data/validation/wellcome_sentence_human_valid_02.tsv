@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+21596	These populations are inherently different in terms of their likely parasite densities in infected individuals (with high parasitemia related to the probability of clinical symptoms) and demographically in terms of factors associated with care-seeking behavior.	6	0			Assign to each sentence a number label according to the following categories:	
+3979	The Zenodo version's title states that it is the "Bioconductor-ready version", and providing the mfa R package through Bioconductor would indeed further enhance its utility.	2	0			0	No Category
+7686	The general overlay between both set could be presented in a better way.	6	-1			1	Figures/Non-textual content
+21447	In R11 and R12, avoid using a dotted or hashed line to connect repeated measures - it is very difficult to distinguish those dots from the actual data points in the raindrops.	1	-1			2	Stats/Analysis/Techniques
+15330	In the maintenance stage, people have sustained their behavior change (e.g. weight loss) for more than 6 months and intend to maintain the behavior and avoid relapsing.	0	0			3	Impact/Novelty
+3312	To which year did the authors assign the 49 mean vaccination coverage for West Africa?	0	0			4	Text/Exposition Clarity
+9419	This information can be added as an extra column in supplementary table 2.	6	0			5	Previous Literature
+2045	The notion that oxidised lipids that can regulate B cell subsets and antibody production (albeit modestly), is interesting.	3	1			6	Main Discussion
+11522	Delineating this within the discussion and conclusions might be helpful for the reader in order to know what to expect in the future.	4	0				
+11905	The metabolite extraction method is slightly unclear.	4	-1			Assign a "sentiment" to the sentences:	
+4890	Similarly, code presented in examples illustrate exported and high level code, while unit tests might rather want to address specific and private functions, that in turn are called within the high level user space functions.	0	0			0	Neutral sentiment (or no sentiment)
+21635	This is inconsistent with previous statements that data from one trial is pending.	4	-1			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+3675	Similarly, expressions of lambda R3, lambda S1, lambda S2 and lambda S3 would need some more explanation.	4	0			1	Positive sentiment (e.g. praises, compliments, etc.)
+17764	The restriction enzyme based assay detects also Leucocytozoon.	0	0				
+14943	Note 2: Later the text describes the long range 1H 15N HSQC spectrum shown in panel C but without reference to it.	1	-1			Category explanation:	Assign sentences to this group if you think they don't fit with any of the other categories
+1609	It’s unclear what “no personal major mental illness” means exactly.	4	0			0	Assign sentences to this group if you think they don't fit with any of the other categories
+3172	Authors aimed to systematically review and meta-analyze the results of studies assessing associations between early in life (neonatal childhood) adiposity and telomere length.	2	0			1	This category groups sentences that discuss figures or other non-textual content
+10668	The slopes are interesting as they appear to be 1, indicating that there isn’t quite a perfect relationship between increased copy and increased mRNA dosage.	2	0			2	This category groups sentences about the following topics:
+193	This is a surprising high figure for a population with an ultra-high risk for AD.	3	1				- Statistics and Data Analysis
+14344	The study by Hartshorne and Germaine involved cross-sectional data.	5	0				- Models and Simulations
+3301	The 10 is commonly used, but the reference needs to be added.	0	0				- Experimental Techniques
+7790	Quote: “It was initially proposed that DCs may act as functional units.	0	0				- General Methodology
+8702	In addition, the ethical statement on page 5 is still duplicated on page 8.	6	-1			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+7987	In the present study Billman et al. used single-molecule RNA-FISH to quantify the expression of HTLV-1 transcripts at the single-cell level.	5	0			4	This category groups sentences that discuss:
+1360	In contrast, RNF4 in Figure 2D is depicted with 4 SIMs in Figure 2D, which is the correct number of SIMs.	1	0				- The clarity of the text (e.g. typos, word replacements, etc.)
+17723	It would be good to see an example of how the truncation of the display at 800 nm does not affect the modelling and calculation results - and how to use the software in that case.	6	0				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+13046	A further correlation analysis with behavioral parameters would also be a plus.	6	0			5	This category groups sentences that mention previous literature on the subject.
+16723	The technique creates lists of issues ranked as the most important for achieving a goal and issues that are less important to achieving the goal and are more difficult to perform.	0	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+13673	What do the P-values on the title of the Figure 3 correspond to?	1	0				- General discussion about the correctness/soundness of the study
+4826	I am very happy with the author's revisions, which I think have significantly strengthened the article.	3	1				- Suggestions and improvements 
+6490	The authors and engagement team are described as local.	0	0				- Corrections
+9157	Supp File-1, Fig. 2C appears to show that 500 nM TTX had no effect on intracellular Na levels yet the mRNA levels in DRGs for both PENK and nFAT5 are significantly increased by TTX (Fig. 3B).	4	-1				
+3915	For GAP50 an Ookinete phenotype was also shown, demonstrating the use of KS to study essential proteins in transmission stages.	3	1			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+5524	Was there absolutely no deviation from the cited papers?	4	0				
+11029	It is a pleasure to read the article.	0	1				
+20282	All three figures (Figure 1-3) are in poor resolution.	1	-1				
+8554	There may be need to clarify that they both used inductive and deductive approaches in the methods section.	4	-1				
+3155	I am happy with the changes made and think that this is an important contribution to the field.	3	1				
+18889	The authors showed no impact of TXA administration compared to placebo on ETP and platelet function.	2	0				
+19245	For these reasons, I would caution the authors not to draw conclusions from the comparisons of crude mortality rates in unadjusted analyses when the underlying disease severity may be very different among those who received transfusions compared to those who did not.	2	-1				

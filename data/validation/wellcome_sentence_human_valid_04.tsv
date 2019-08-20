@@ -1,0 +1,41 @@
+	texts	label	sentiment	comments		Instructions: 	
+3025	Remember, this is a research study, not a clinical setting.	6	0			Assign to each sentence a number label according to the following categories:	
+20074	If yes, it should be worth to include them.	0	0			0	No Category
+22346	For example, on page 5, the authors note that “The review will include all the pertinent documents published in English language only.”	2	0			1	Figures/Non-textual content
+19690	IHME does not engage in similar country consultation processes prior to publication.	2	0			2	Stats/Analysis/Techniques
+12759	A number of concerns reduces the enthusiasm for this report:	6	-1			3	Impact/Novelty
+7295	The authors discuss that the “accumulation of DNA damage could however be independent of telomere length as it has been shown telomere associated DNA-damage response proteins do not differ in length from those that are negative for DNA damage markers (51).”	6	0			4	Text/Exposition Clarity
+21210	In my opinion, this important manuscript can be approved for indexing.	3	1			5	Previous Literature
+13858	The utility of the protocol is clearly stated and well illustrated in the videos.	2	1	4 is also relevant 		6	Main Discussion
+12518	The correlation in Fig S3B is clearer.	1	1				
+15728	The risk of equine antitoxin is described variously as theoretical and infrequent ( 1 ).	4	0			Assign a "sentiment" to the sentences:	
+9306	Supporting information: Suggests there’s no need for figure A2, as figure A1 already depicts the relative amounts in the stacked bars.	1	0			0	Neutral sentiment (or no sentiment)
+19899	Perhaps, if feasible, a rough estimate of number of researcher visits to schools could also be given.	6	0			-1	Negative sentiment (e.g. critiques, disagreement, etc.)
+16860	As a result, computational analyses suffer from noise introduced by the read-through events that are almost impossible to differentiate from the actual truncated cDNAs.	2	-1			1	Positive sentiment (e.g. praises, compliments, etc.)
+16564	For this purpose the authors developed a set of plasmids.	2	0				
+20062	It is worth to mention that TwinsUK offers facilities and encourages the sharing of data with the scientific community to further scientific research.	6	0			Category explanation:	
+10546	There are a lot of evidences showing how the space alters the quality of the evidence.	5	0			0	Assign sentences to this group if you think they don't fit with any of the other categories
+2174	The study is ambitious, but with their track record, this group are highly likely to complete this crucial piece of work and definitively answer the question they have raised.	3	1			1	This category groups sentences that discuss figures or other non-textual content
+16868	By ligating a specific oligonucleotide to the 5’ ends of cross-linked RNAs, they can roughly quantify the degree of read-through and determine whether the sequence characteristics of the read-through fragments are similar to the truncated cDNAs.	2	0			2	This category groups sentences about the following topics:
+245	The data also provide useful information with respect to various technical aspects of performing genome-wide screens.	3	1				- Statistics and Data Analysis
+2867	To confirm the phenotype was caused specifically by loss of lamc3, I suggest the authors to examine whether lamc3 mRNA could rescue the phenotypes in morphants and mutants.	6	0				- Models and Simulations
+16339	I would like to see included a more detailed account of the types of venues selected, with a number if possible.	2	0				- Experimental Techniques
+18823	The paper of Thornton et al. presents a second version of the tool VERTEX (version 2.0).	3	0				- General Methodology
+7731	Data security measures are also described on the Safe Haven websites.	2	0			3	This category groups sentences that discuss the novelty, originality or impact of the paper
+3524	From the limited data that have been reported (reviewed critically in 1 ), it is indeed becoming evident that the energy metabolism of beta cells is unusual, with regulatory and control structures that are not typically found in other cells.	3	0			4	This category groups sentences that discuss:
+5849	I would therefore suggest the authors to encourage the use of more markers, even if I am convinced that this first screen mostly refutes the transmission hypothesis.	6	0				- The clarity of the text (e.g. typos, word replacements, etc.)
+13802	It is unclear why this article is included.	0	-1				- The clarity of the exposition (e.g. if the paper sections are logically connected, if the exposition is clear, etc.)
+8312	More information on a) which databases and resources were searched for articles and information and b) which references were used to derive the results.	2	0			5	This category groups sentences that mention previous literature on the subject.
+8640	Are the conclusions drawn adequately and supported by the results?	6	0			6	This category groups sentences about the main points raised by the reviewer. These include, for example:
+18018	Is it easier for the reader to understand?	4	0				- General discussion about the correctness/soundness of the study
+12770	I regret that I lack the expertise to review the other aspects of phenotype collection or study design.	0	0				- Suggestions and improvements 
+4615	Does such a virus qualify for a positive control?	2	0				- Corrections
+8571	There is some ambiguity about the overall aim of the engagement research.	3	-1				
+15064	Third, changes in FC consistently preceded changes in SC.	6	0			If you think some sentences should be labeled with two or more categories, or if you have any other comment you'd like to make on the particular sentence, write your considerations in the "comments" column.	
+8217	The authors are to be commended for the breadth of their analysis.	6	1				
+12339	A table to summarize these assays and provide references to their implementation elsewhere would be helpful in determined their likely efficacy.	1	0				
+19478	The current research note has sufficient details of the employed methods and analysis.	2	1				
+16417	Also, the text states that "Both analyses demonstrate that ap2-g expression is significantly increased over time (Figure 2b)" but Fig. 2b has no time component.	1	-1				
+7203	In Npc1 - - mice model, reduced activity of P450 enzymes was observed possibly as a result of bile acid deficiency imbalance, as bile acid treatment significantly rescued P450 enzyme activity in Npc1 - - mice.	6	0				
+17025	may I suggest “ .. emergence or re-emergence of SEVERAL arboviruses ”	4	0				
+16738	The paper analyses the needs and ranks the most pressing ones but gives no hint how precisely each identified need should be translated into research that provides evidence that an intervention actually is useful.	6	-1				
